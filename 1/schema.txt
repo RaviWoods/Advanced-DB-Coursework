@@ -1,0 +1,69 @@
+       table_name        
+-------------------------
+ member
+ security_council_member
+ non_un_member
+ recognises
+ country
+ region
+ un_member
+ organisation
+(8 rows)
+
+       table_name        |  column_name  |     data_type     | is_nullable 
+-------------------------+---------------+-------------------+-------------
+ country                 | name          | character varying | NO
+ country                 | iso_code      | character         | NO
+ country                 | independent   | date              | YES
+ country                 | currency      | character         | YES
+ member                  | iso_code      | character         | NO
+ member                  | o_code        | character         | NO
+ non_un_member           | iso_code      | character         | NO
+ non_un_member           | comment       | character varying | YES
+ organisation            | o_code        | character varying | NO
+ organisation            | name          | character varying | NO
+ organisation            | city          | character varying | NO
+ organisation            | iso_code      | character varying | NO
+ recognises              | unm_iso_code  | character         | NO
+ recognises              | nunm_iso_code | character         | NO
+ recognises              | date          | date              | YES
+ region                  | iso_code      | character         | NO
+ region                  | r_name        | character varying | NO
+ region                  | area          | integer           | NO
+ region                  | population    | integer           | NO
+ security_council_member | iso_code      | character         | NO
+ security_council_member | joined        | date              | NO
+ security_council_member | permanent     | boolean           | NO
+ un_member               | iso_code      | character         | NO
+ un_member               | joined        | date              | NO
+ un_member               | contribution  | integer           | NO
+(25 rows)
+
+      constraint_name       |       table_name        |  column_name  
+----------------------------+-------------------------+---------------
+ country_pk                 | country                 | iso_code
+ member_pk                  | member                  | o_code
+ member_pk                  | member                  | iso_code
+ non_un_member_pk           | non_un_member           | iso_code
+ organisation_pk            | organisation            | o_code
+ recognised_pk              | recognises              | unm_iso_code
+ recognised_pk              | recognises              | nunm_iso_code
+ region_pk                  | region                  | r_name
+ region_pk                  | region                  | iso_code
+ security_council_member_pk | security_council_member | iso_code
+ un_member_pk               | un_member               | iso_code
+(11 rows)
+
+            constraint_name            |        fk_table         |   fk_column   |   pk_table    | pk_column 
+---------------------------------------+-------------------------+---------------+---------------+-----------
+ member_iso_code_fkey                  | member                  | iso_code      | un_member     | iso_code
+ member_o_code_fkey                    | member                  | o_code        | organisation  | o_code
+ non_un_member_iso_code_fkey           | non_un_member           | iso_code      | country       | iso_code
+ organisation_iso_code_fkey            | organisation            | iso_code      | country       | iso_code
+ recognises_nunm_iso_code_fkey         | recognises              | nunm_iso_code | non_un_member | iso_code
+ recognises_unm_iso_code_fkey          | recognises              | unm_iso_code  | un_member     | iso_code
+ region_iso_code_fkey                  | region                  | iso_code      | country       | iso_code
+ security_council_member_iso_code_fkey | security_council_member | iso_code      | un_member     | iso_code
+ un_member_iso_code_fkey               | un_member               | iso_code      | country       | iso_code
+(9 rows)
+
