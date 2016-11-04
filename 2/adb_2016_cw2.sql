@@ -13,7 +13,9 @@ SELECT 	state.name AS state_name,
 FROM state JOIN place ON state.code = place.state_code
 WHERE type = 'city'
 AND population > 100000
-GROUP BY state_name;
+GROUP BY state_name
+HAVING big_city_population >= 809140 OR no_big_city >= 5 
+ORDER BY state_name
 -- Q3 returns (type,place,mcd,county)
 
 ; 
