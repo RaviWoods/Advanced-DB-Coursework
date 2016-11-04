@@ -1,6 +1,6 @@
 -- Q1 returns (state_name,name)
 SELECT state.name AS state_name, place.name
-FROM state JOIN name ON state.code = place.state_code
+FROM state JOIN place ON state.code = place.state_code
 WHERE place.name LIKE '%City'
 AND type <> 'city';
 
