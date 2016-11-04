@@ -2,12 +2,14 @@
 SELECT state.name AS state_name, place.name
 FROM state JOIN place ON state.code = place.state_code
 WHERE place.name LIKE '%City'
-AND type <> 'city';
+AND type <> 'city'
+ORDER BY state_name, name ASC;
 
 -- Q2 returns (state_name,no_big_city,big_city_population)
-
-;
-
+SELECT * 
+FROM state JOIN place ON state.code = place.state_code
+WHERE type = 'city'
+AND population > 100000;
 -- Q3 returns (type,place,mcd,county)
 
 ; 
