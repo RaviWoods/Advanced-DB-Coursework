@@ -7,10 +7,13 @@ AND type <> 'city'
 ORDER BY state_name, name ASC;
 */
 -- Q2 returns (state_name,no_big_city,big_city_population)
-SELECT * 
+SELECT 	state.name AS state_name,
+		COUNT(place.name) AS no_big_city,
+		SUM(population) AS big_city_population
 FROM state JOIN place ON state.code = place.state_code
 WHERE type = 'city'
-AND population > 100000;
+AND population > 100000
+GROUP BY state_name;
 -- Q3 returns (type,place,mcd,county)
 
 ; 
