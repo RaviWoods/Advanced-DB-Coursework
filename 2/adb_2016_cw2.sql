@@ -20,6 +20,7 @@ ORDER BY state_name
 */
 
 -- Q3 returns (type,place,mcd,county)
+/*
 SELECT DISTINCT type 
 FROM place
 UNION
@@ -28,10 +29,15 @@ FROM mcd
 UNION
 SELECT DISTINCT type 
 FROM county; 
-
+*/
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
-
-;
+SELECT 	state.name AS state_name, 
+		SUM(mcd.population) AS population
+		ROUND(SUM(mcd.population)/total_population.population)
+FROM	state LEFT JOIN mcd ON state.code = mcd.state_code,
+		(SELECT SUM(population) AS population FROM mcd) total_population
+GROUP BY state_name
+ORDER BY state_name;
 
 -- Q5 returns (state_name,county_name,population)
 
