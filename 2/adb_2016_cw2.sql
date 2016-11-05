@@ -20,9 +20,14 @@ ORDER BY state_name
 */
 
 -- Q3 returns (type,place,mcd,county)
-SELECT ALL COALESCE(place.type, mcd.type, county.type) AS type
-FROM place, mcd, county
-; 
+SELECT DISTINCT type 
+FROM place
+UNION
+SELECT DISTINCT type 
+FROM mcd
+UNION
+SELECT DISTINCT type 
+FROM county; 
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
 
