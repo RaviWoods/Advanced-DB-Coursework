@@ -20,7 +20,7 @@ ORDER BY state_name
 */
 
 -- Q3 returns (type,place,mcd,county)
-SELECT ALL type
+SELECT ALL COALESCE(place.type, mcd.type, county.type) AS type
 FROM place, mcd, county
 ; 
 
