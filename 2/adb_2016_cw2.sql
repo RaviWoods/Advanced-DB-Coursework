@@ -21,10 +21,11 @@ ORDER BY state_name
 
 -- Q3 returns (type,place,mcd,county)
 
-SELECT 		type,
-			SUM(type) AS place.
-FROM 		place
+SELECT	place.type,
+	COUNT(place.type) AS place
+FROM 	place
 GROUP BY 	type
+
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
 /*
 SELECT 		state.name AS state_name, 
@@ -40,6 +41,7 @@ GROUP BY state_name, total_population.population, total_land_area.land_area
 ORDER BY state_name;
 */
 -- Q5 returns (state_name,county_name,population)
+/*
 SELECT	state_name,
 
 		population
@@ -47,7 +49,7 @@ SELECT	state_name,
 FROM 	SELECT (RANK() OVER (ORDER BY population DESC) FROM 
 
 ;
-
+*/
 -- Q6 returns (zip_code,zip_name,name,distance)
 
 ;
