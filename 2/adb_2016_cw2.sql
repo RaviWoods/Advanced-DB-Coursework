@@ -16,8 +16,10 @@ AND population > 100000
 GROUP BY state_name
 HAVING SUM(population) >= 1000000 OR COUNT(place.name) >= 5 
 ORDER BY state_name
--- Q3 returns (type,place,mcd,county)
 
+-- Q3 returns (type,place,mcd,county)
+SELECT ALL type
+FROM place, mcd, county
 ; 
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
