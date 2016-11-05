@@ -20,17 +20,13 @@ ORDER BY state_name
 */
 
 -- Q3 returns (type,place,mcd,county)
-/*
-SELECT DISTINCT type 
-FROM place
-UNION
-SELECT DISTINCT type 
-FROM mcd
-UNION
-SELECT DISTINCT type 
-FROM county; 
-*/
+
+SELECT 		type,
+			SUM(type) AS place.
+FROM 		place
+GROUP BY 	type
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
+/*
 SELECT 		state.name AS state_name, 
 		total_population.population,
 		SUM(mcd.population) AS population,
@@ -42,8 +38,13 @@ FROM		state LEFT JOIN mcd ON state.code = mcd.state_code,
 		(SELECT SUM(land_area) AS land_area FROM mcd) total_land_area
 GROUP BY state_name, total_population.population, total_land_area.land_area
 ORDER BY state_name;
-
+*/
 -- Q5 returns (state_name,county_name,population)
+SELECT	state_name,
+
+		population
+
+FROM 	SELECT (RANK() OVER (ORDER BY population DESC) FROM 
 
 ;
 
