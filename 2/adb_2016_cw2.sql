@@ -32,12 +32,15 @@ FROM county;
 */
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
 SELECT 		state.name AS state_name, 
-		total_population.pop,
+		total_population.population,
 		SUM(mcd.population) AS population,
-		ROUND((100.0*SUM(mcd.population))/total_population.pop,2) AS pc_population
+		ROUND((100.0*SUM(mcd.population))/total_population.population,2) AS pc_population
+		SUM(mcd.land_area) AS land_area,
+		ROUND((100.0*SUM(mcd.land_area))/total_land_area.land_area,2) AS pc_land_area
 FROM		state LEFT JOIN mcd ON state.code = mcd.state_code,
-		(SELECT SUM(population) AS pop FROM mcd) total_population
-GROUP BY state_name, total_population.pop
+		(SELECT SUM(population) AS population FROM mcd) total_population,
+		(SELECT SUM(land_area) AS land_area FROM mcd) total_land_area,
+GROUP BY state_name, total_population.population
 ORDER BY state_name;
 
 -- Q5 returns (state_name,county_name,population)
