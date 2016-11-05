@@ -31,12 +31,13 @@ SELECT DISTINCT type
 FROM county; 
 */
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
-SELECT 	state.name AS state_name, 
-		SUM(mcd.population) AS population
-		ROUND(SUM(mcd.population)/total_population.population)
-FROM	state LEFT JOIN mcd ON state.code = mcd.state_code,
-		(SELECT SUM(population) AS population FROM mcd) total_population
-GROUP BY state_name
+SELECT 		state.name AS state_name, 
+		total_population.pop,
+		SUM(mcd.population) AS population,
+		ROUND((100.0*SUM(mcd.population))/total_population.pop,2) AS pc_population
+FROM		state LEFT JOIN mcd ON state.code = mcd.state_code,
+		(SELECT SUM(population) AS pop FROM mcd) total_population
+GROUP BY state_name, total_population.pop
 ORDER BY state_name;
 
 -- Q5 returns (state_name,county_name,population)
