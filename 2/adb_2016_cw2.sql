@@ -27,14 +27,13 @@ WITH all_types(type) AS
 		UNION
 		SELECT type
 		FROM mcd
-		WHERE place IS NOT NULL
+		WHERE type IS NOT NULL
 		UNION
 		SELECT type
 		FROM county)
 SELECT	all_types.type,
 		SUM(CASE place.type WHEN all_types.type THEN 1 ELSE 0 END) AS place
-FROM 	county, mcd, place
-WHERE	mcd.type IS NOT NULL
+FROM 	place,all_types
 GROUP BY 	all_types.type
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
