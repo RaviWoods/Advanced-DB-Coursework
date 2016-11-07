@@ -19,8 +19,20 @@ HAVING SUM(population) >= 1000000 OR COUNT(place.name) >= 5
 ORDER BY state_name
 */
 
+SELECT type, 'place' AS name
+FROM place
+WHERE type IS NOT NULL
+UNION
+SELECT type, 'mcd' AS name
+FROM mcd
+WHERE type IS NOT NULL
+UNION
+SELECT type, 'county' AS name
+FROM county
+WHERE type IS NOT NULL
 -- Q3 returns (type,place,mcd,county)
 
+/*
 WITH all_types(type,name) AS
 		(SELECT type, 'place' AS name
 		FROM place
@@ -36,9 +48,10 @@ WITH all_types(type,name) AS
 SELECT	all_types.type,
 		(SELECT SUM(CASE WHEN all_types.name = 'place' THEN 1 ELSE 0 END) FROM place,all_types) AS place,
 		(SELECT SUM(CASE WHEN all_types.name = 'mcd' THEN 1 ELSE 0 END) FROM mcd,all_types) AS mcd,
-		(SELECT SUM(CASE WHEN all_types.name = 'county' THEN 1 ELSE 0 END) FROM county,all_types) AS county,
+		(SELECT SUM(CASE WHEN all_types.name = 'county' THEN 1 ELSE 0 END) FROM county,all_types) AS county
 FROM 	all_types
 GROUP BY 	all_types.type;
+*/
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
 /*
