@@ -22,15 +22,15 @@ ORDER BY state_name
 -- Q3 returns (type,place,mcd,county)
 
 WITH all_types(type,name) AS
-		(SELECT type, (SELECT('place')) AS name
+		(SELECT type, 'place' AS name
 		FROM place
 		WHERE type IS NOT NULL
 		UNION
-		SELECT type (SELECT('mcd')) AS name
+		SELECT type, 'mcd' AS name
 		FROM mcd
 		WHERE type IS NOT NULL
 		UNION
-		SELECT type (SELECT('county')) AS name
+		SELECT type, 'county' AS name
 		FROM county
 		WHERE type IS NOT NULL)
 SELECT	all_types.type,
