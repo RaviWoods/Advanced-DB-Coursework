@@ -18,6 +18,18 @@ GROUP BY state_name
 HAVING SUM(population) >= 1000000 OR COUNT(place.name) >= 5 
 ORDER BY state_name
 */
+WITH all_types(type) AS
+		(SELECT type
+		FROM place
+		UNION
+		SELECT type
+		FROM mcd
+		WHERE type IS NOT NULL
+		UNION
+		SELECT type
+		FROM county)
+SELECT	all_types.type
+FROM 	all_types
 
 -- Q3 returns (type,place,mcd,county)
 
