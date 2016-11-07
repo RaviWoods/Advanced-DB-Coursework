@@ -24,13 +24,15 @@ ORDER BY state_name
 WITH all_types(type) AS
 		(SELECT type
 		FROM place
+		WHERE type IS NOT NULL
 		UNION
 		SELECT type
 		FROM mcd
 		WHERE type IS NOT NULL
 		UNION
 		SELECT type
-		FROM county)
+		FROM county
+		WHERE type IS NOT NULL)
 SELECT	all_types.type,
 		(SELECT SUM(CASE place.type WHEN all_types.type THEN 1 ELSE 0 END) FROM place,all_types) AS place,
 		(SELECT SUM(CASE mcd.type WHEN all_types.type THEN 1 ELSE 0 END) FROM mcd,all_types) AS mcd,
