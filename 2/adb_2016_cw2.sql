@@ -22,17 +22,18 @@ ORDER BY state_name
 -- Q3 returns (type,place,mcd,county)
 
 WITH all_types(type) AS
-		SELECT type 
+		(SELECT type
 		FROM place
 		UNION
 		SELECT type
 		FROM mcd
 		UNION
 		SELECT type
-		FROM county
-SELECT	all_types.type
+		FROM county)
+SELECT	all_types.type,
 		COUNT(place.type)
-FROM 	place
+FROM 	place, all_types
+WHERE	place.type = all_types.type
 GROUP BY 	all_types.type
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
