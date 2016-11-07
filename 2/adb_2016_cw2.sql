@@ -21,10 +21,19 @@ ORDER BY state_name
 
 -- Q3 returns (type,place,mcd,county)
 
-SELECT	place.type,
-	COUNT(place.type) AS place
+WITH all_types(type) AS
+		SELECT type 
+		FROM place
+		UNION
+		SELECT type
+		FROM mcd
+		UNION
+		SELECT type
+		FROM county
+SELECT	all_types.type
+		COUNT(place.type)
 FROM 	place
-GROUP BY 	type
+GROUP BY 	all_types.type
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
 /*
@@ -53,4 +62,6 @@ FROM 	SELECT (RANK() OVER (ORDER BY population DESC) FROM
 -- Q6 returns (zip_code,zip_name,name,distance)
 
 ;
+
+
 
