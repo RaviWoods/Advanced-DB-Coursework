@@ -32,9 +32,9 @@ WITH all_types(type) AS
 		SELECT type
 		FROM county)
 SELECT	all_types.type,
-		SUM(CASE place.type WHEN all_types.type THEN 1 ELSE 0 END) AS place,
-		SUM(CASE mcd.type WHEN all_types.type THEN 1 ELSE 0 END) AS mcd,
-		SUM(CASE county.type WHEN all_types.type THEN 1 ELSE 0 END) AS county
+		(SELECT SUM(CASE place.type WHEN all_types.type THEN 1 ELSE 0 END) FROM place,all_types) AS place,
+		(SELECT SUM(CASE mcd.type WHEN all_types.type THEN 1 ELSE 0 END) FROM mcd,all_types) AS mcd,
+		(SELECT SUM(CASE county.type WHEN all_types.type THEN 1 ELSE 0 END) FROM county,all_types) AS county,
 FROM 	place, mcd, county, all_types
 GROUP BY 	all_types.type;
 
