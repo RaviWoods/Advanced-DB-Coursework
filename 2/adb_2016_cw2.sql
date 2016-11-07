@@ -19,17 +19,7 @@ HAVING SUM(population) >= 1000000 OR COUNT(place.name) >= 5
 ORDER BY state_name
 */
 
-SELECT type, 'place' AS name
-FROM place
-WHERE type IS NOT NULL
-UNION ALL
-SELECT type, 'mcd' AS name
-FROM mcd
-WHERE type IS NOT NULL
-UNION ALL
-SELECT type, 'county' AS name
-FROM county
-WHERE type IS NOT NULL
+
 -- Q3 returns (type,place,mcd,county)
 
 /*
@@ -37,11 +27,11 @@ WITH all_types(type,name) AS
 		(SELECT type, 'place' AS name
 		FROM place
 		WHERE type IS NOT NULL
-		UNION
+		UNION ALL
 		SELECT type, 'mcd' AS name
 		FROM mcd
 		WHERE type IS NOT NULL
-		UNION
+		UNION ALL
 		SELECT type, 'county' AS name
 		FROM county
 		WHERE type IS NOT NULL)
