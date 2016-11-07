@@ -18,18 +18,6 @@ GROUP BY state_name
 HAVING SUM(population) >= 1000000 OR COUNT(place.name) >= 5 
 ORDER BY state_name
 */
-WITH all_types(type) AS
-		(SELECT type
-		FROM place
-		UNION
-		SELECT type
-		FROM mcd
-		WHERE type IS NOT NULL
-		UNION
-		SELECT type
-		FROM county)
-SELECT	all_types.type
-FROM 	all_types
 
 -- Q3 returns (type,place,mcd,county)
 
@@ -44,9 +32,11 @@ WITH all_types(type) AS
 		SELECT type
 		FROM county)
 SELECT	all_types.type,
-		SUM(CASE place.type WHEN all_types.type THEN 1 ELSE 0 END) AS place
-FROM 	place,all_types
-GROUP BY 	all_types.type
+		SUM(CASE place.type WHEN all_types.type THEN 1 ELSE 0 END) AS place,
+		SUM(CASE mcd.type WHEN all_types.type THEN 1 ELSE 0 END) AS mcd,
+		SUM(CASE county.type WHEN all_types.type THEN 1 ELSE 0 END) AS county
+FROM 	place, mcd, county, all_types
+GROUP BY 	all_types.type;
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
 /*
@@ -73,8 +63,6 @@ FROM 	SELECT (RANK() OVER (ORDER BY population DESC) FROM
 ;
 */
 -- Q6 returns (zip_code,zip_name,name,distance)
-
-;
 
 
 
