@@ -15,7 +15,7 @@ FROM state JOIN place ON state.code = place.state_code
 WHERE type = 'city'
 AND population > 100000
 GROUP BY state_name
-HAVING SUM(population) >= 1000000 OR COUNT(place.name) >= 5 
+HAVING SUM(population) >= 1000000 OR COUNT(place.name) >= 5
 ORDER BY state_name
 */
 
@@ -36,16 +36,16 @@ WITH all_types(type,name) AS
 		FROM county
 		WHERE type IS NOT NULL)
 SELECT	all_types.type,
-		(SELECT SUM(CASE WHEN all_types.name = 'place' THEN 1 ELSE 0 END) FROM place,all_types) AS place,
-		(SELECT SUM(CASE WHEN all_types.name = 'mcd' THEN 1 ELSE 0 END) FROM mcd,all_types) AS mcd,
-		(SELECT SUM(CASE WHEN all_types.name = 'county' THEN 1 ELSE 0 END) FROM county,all_types) AS county
+		SUM(CASE WHEN all_types.name = 'place' THEN 1 ELSE 0 END) AS place,
+		SUM(CASE WHEN all_types.name = 'mcd' THEN 1 ELSE 0 END) AS mcd,
+		SUM(CASE WHEN all_types.name = 'county' THEN 1 ELSE 0 END) AS county
 FROM 	all_types
 GROUP BY 	all_types.type;
 */
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
 /*
-SELECT 		state.name AS state_name, 
+SELECT 		state.name AS state_name,
 		total_population.population,
 		SUM(mcd.population) AS population,
 		ROUND((100.0*SUM(mcd.population))/total_population.population,2) AS pc_population,
@@ -58,16 +58,15 @@ GROUP BY state_name, total_population.population, total_land_area.land_area
 ORDER BY state_name;
 */
 -- Q5 returns (state_name,county_name,population)
-/*
-SELECT	state_name,
-
-		population
-
-FROM 	SELECT (RANK() OVER (ORDER BY population DESC) FROM 
-
-;
-*/
+SELECT ranked_counties.state_name, ranked_counties.county_name, ranked_counties.population
+FROM (
+  SELECT  state.name AS state_name,
+          county.name AS county_name,
+          population,
+          RANK( ) OVER
+            (PARTITION BY state.name ORDER BY population DESC) AS rank
+  FROM    state JOIN county ON state.code = county.state_code
+) AS ranked_counties
+WHERE ranked_counties.rank <= 5
+ORDER BY ranked_counties.state_name ASC, ranked_counties.population DESC;
 -- Q6 returns (zip_code,zip_name,name,distance)
-
-
-

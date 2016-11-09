@@ -1,0 +1,1478 @@
+   state_name   |             name             |  type   
+----------------+------------------------------+---------
+ ALABAMA        | Flint City                   | town
+ ALABAMA        | Frisco City                  | town
+ ALABAMA        | Garden City                  | town
+ ALABAMA        | Hobson City                  | town
+ ALABAMA        | Midland City                 | town
+ ALABAMA        | Reece City                   | town
+ ALABAMA        | Sardis City                  | town
+ ARIZONA        | Arizona City                 | CDP
+ ARIZONA        | Black Canyon City            | CDP
+ ARIZONA        | Central Heights-Midland City | CDP
+ ARIZONA        | Colorado City                | town
+ ARIZONA        | Huachuca City                | town
+ ARIZONA        | Sun City                     | CDP
+ ARIZONA        | Tuba City                    | CDP
+ ARKANSAS       | Bluff City                   | town
+ ARKANSAS       | Central City                 | town
+ ARKANSAS       | College City                 | town
+ ARKANSAS       | Lake City                    | town
+ CALIFORNIA     | Big Bear City                | CDP
+ CALIFORNIA     | Ford City                    | CDP
+ CALIFORNIA     | Hamilton City                | CDP
+ CALIFORNIA     | Kettleman City               | CDP
+ CALIFORNIA     | South Yuba City              | CDP
+ CALIFORNIA     | Sun City                     | CDP
+ CALIFORNIA     | Sunnyside-Tahoe City         | CDP
+ CALIFORNIA     | Tuolumne City                | CDP
+ COLORADO       | Bonanza City                 | town
+ COLORADO       | Colorado City                | CDP
+ COLORADO       | Garden City                  | town
+ COLORADO       | Lake City                    | town
+ COLORADO       | Orchard City                 | town
+ COLORADO       | Sugar City                   | town
+ CONNECTICUT    | Jewett City                  | borough
+ FLORIDA        | Carol City                   | CDP
+ FLORIDA        | Cross City                   | town
+ FLORIDA        | Floral City                  | CDP
+ FLORIDA        | Forest City                  | CDP
+ FLORIDA        | Grove City                   | CDP
+ FLORIDA        | Highland City                | CDP
+ FLORIDA        | Kenneth City                 | town
+ FLORIDA        | Leisure City                 | CDP
+ FLORIDA        | Ocean City                   | CDP
+ FLORIDA        | Palm City                    | CDP
+ FLORIDA        | Polk City                    | town
+ FLORIDA        | St. James City               | CDP
+ FLORIDA        | White City                   | CDP
+ GEORGIA        | Bibb City                    | town
+ GEORGIA        | Iron City                    | town
+ GEORGIA        | Junction City                | town
+ GEORGIA        | Mountain City                | town
+ GEORGIA        | Sale City                    | town
+ HAWAII         | Lanai City                   | CDP
+ HAWAII         | Makakilo City                | CDP
+ HAWAII         | Pearl City                   | CDP
+ ILLINOIS       | Beecher City                 | village
+ ILLINOIS       | Belle Prairie City           | town
+ ILLINOIS       | Central City                 | village
+ ILLINOIS       | Clay City                    | village
+ ILLINOIS       | Coal City                    | village
+ ILLINOIS       | Crescent City                | village
+ ILLINOIS       | Dalton City                  | village
+ ILLINOIS       | Fairmont City                | village
+ ILLINOIS       | Forest City                  | village
+ ILLINOIS       | Hanna City                   | village
+ ILLINOIS       | Junction City                | village
+ ILLINOIS       | National City                | village
+ ILLINOIS       | Norris City                  | village
+ ILLINOIS       | North City                   | village
+ ILLINOIS       | Pearl City                   | village
+ ILLINOIS       | Piper City                   | village
+ ILLINOIS       | Prairie City                 | village
+ ILLINOIS       | Rapids City                  | village
+ ILLINOIS       | Rock City                    | village
+ ILLINOIS       | Schram City                  | village
+ ILLINOIS       | Standard City                | village
+ ILLINOIS       | Valley City                  | village
+ ILLINOIS       | Wayne City                   | village
+ ILLINOIS       | West City                    | village
+ ILLINOIS       | White City                   | village
+ ILLINOIS       | Yates City                   | village
+ INDIANA        | Cambridge City               | town
+ INDIANA        | Clay City                    | town
+ INDIANA        | Fountain City                | town
+ INDIANA        | Monroe City                  | town
+ INDIANA        | Parker City                  | town
+ INDIANA        | Rome City                    | town
+ INDIANA        | State Line City              | town
+ INDIANA        | Switz City                   | town
+ INDIANA        | Windfall City                | town
+ KENTUCKY       | Whitley City                 | CDP
+ LOUISIANA      | Amite City                   | town
+ LOUISIANA      | Bridge City                  | CDP
+ LOUISIANA      | Junction City                | village
+ LOUISIANA      | Oil City                     | town
+ MARYLAND       | Chesapeake City              | town
+ MARYLAND       | Cottage City                 | town
+ MARYLAND       | Ellicott City                | CDP
+ MARYLAND       | Maryland City                | CDP
+ MARYLAND       | Ocean City                   | town
+ MARYLAND       | West Ocean City              | CDP
+ MICHIGAN       | Beal City                    | CDP
+ MICHIGAN       | Cass City                    | village
+ MICHIGAN       | Cement City                  | village
+ MICHIGAN       | Copper City                  | village
+ MICHIGAN       | Howard City                  | village
+ MICHIGAN       | Kent City                    | village
+ MICHIGAN       | Mackinaw City                | village
+ MICHIGAN       | Minden City                  | village
+ MICHIGAN       | Union City                   | village
+ MISSISSIPPI    | Calhoun City                 | town
+ MISSISSIPPI    | Morgan City                  | town
+ MISSISSIPPI    | Silver City                  | town
+ MISSOURI       | Bates City                   | village
+ MISSOURI       | Benton City                  | town
+ MISSOURI       | Bragg City                   | town
+ MISSOURI       | Cobalt City                  | village
+ MISSOURI       | Ford City                    | town
+ MISSOURI       | Grant City                   | town
+ MISSOURI       | Gunn City                    | village
+ MISSOURI       | Hay-Wood City                | village
+ MISSOURI       | Junction City                | village
+ MISSOURI       | Kingdom City                 | village
+ MISSOURI       | Phelps City                  | town
+ MISSOURI       | South West City              | town
+ MISSOURI       | Stark City                   | town
+ MISSOURI       | Wilson City                  | town
+ MONTANA        | Virginia City                | town
+ NEBRASKA       | Howard City                  | village
+ NEBRASKA       | Mason City                   | village
+ NEBRASKA       | Republican City              | village
+ NEBRASKA       | Rising City                  | village
+ NEBRASKA       | Steele City                  | village
+ NEVADA         | Carson City                  | 
+ NEVADA         | New Washoe City              | CDP
+ NEW JERSEY     | Neptune City                 | borough
+ NEW JERSEY     | Surf City                    | borough
+ NEW MEXICO     | Silver City                  | town
+ NEW YORK       | Garden City                  | village
+ NEW YORK       | Johnson City                 | village
+ NEW YORK       | New City                     | CDP
+ NORTH CAROLINA | Boger City                   | CDP
+ NORTH CAROLINA | Bryson City                  | town
+ NORTH CAROLINA | Cove City                    | town
+ NORTH CAROLINA | Elm City                     | town
+ NORTH CAROLINA | Forest City                  | town
+ NORTH CAROLINA | James City                   | CDP
+ NORTH CAROLINA | Morehead City                | town
+ NORTH CAROLINA | Oak City                     | town
+ NORTH CAROLINA | Siler City                   | town
+ NORTH CAROLINA | Silver City                  | CDP
+ NORTH CAROLINA | Surf City                    | town
+ NORTH CAROLINA | Tabor City                   | town
+ OHIO           | Beach City                   | village
+ OHIO           | Crown City                   | village
+ OHIO           | Dexter City                  | village
+ OHIO           | Jerry City                   | village
+ OHIO           | Junction City                | village
+ OHIO           | Lore City                    | village
+ OHIO           | Miller City                  | village
+ OHIO           | Mineral City                 | village
+ OHIO           | Murray City                  | village
+ OHIO           | Ohio City                    | village
+ OHIO           | Plain City                   | village
+ OHIO           | Pleasant City                | village
+ OHIO           | Quaker City                  | village
+ OHIO           | Tremont City                 | village
+ OHIO           | Union City                   | village
+ OKLAHOMA       | Cimarron City                | town
+ OKLAHOMA       | Custer City                  | town
+ OKLAHOMA       | Dill City                    | town
+ OKLAHOMA       | Elmore City                  | town
+ OKLAHOMA       | Empire City                  | town
+ OKLAHOMA       | Marble City                  | town
+ OKLAHOMA       | Ratliff City                 | town
+ OKLAHOMA       | Strong City                  | town
+ OKLAHOMA       | Union City                   | town
+ OKLAHOMA       | Webb City                    | town
+ OKLAHOMA       | Wright City                  | town
+ OREGON         | Canyon City                  | town
+ OREGON         | Tri-City                     | CDP
+ OREGON         | White City                   | CDP
+ PENNSYLVANIA   | Broad Top City               | borough
+ PENNSYLVANIA   | Central City                 | borough
+ PENNSYLVANIA   | Dickson City                 | borough
+ PENNSYLVANIA   | Ellwood City                 | borough
+ PENNSYLVANIA   | Evans City                   | borough
+ PENNSYLVANIA   | Fayette City                 | borough
+ PENNSYLVANIA   | Ford City                    | borough
+ PENNSYLVANIA   | Forest City                  | borough
+ PENNSYLVANIA   | Grove City                   | borough
+ PENNSYLVANIA   | Homer City                   | borough
+ PENNSYLVANIA   | Karns City                   | borough
+ PENNSYLVANIA   | Lake City                    | borough
+ PENNSYLVANIA   | Lumber City                  | borough
+ PENNSYLVANIA   | Mahanoy City                 | borough
+ PENNSYLVANIA   | Spring City                  | borough
+ PENNSYLVANIA   | Tower City                   | borough
+ PENNSYLVANIA   | Union City                   | borough
+ SOUTH CAROLINA | Garden City                  | CDP
+ SOUTH DAKOTA   | Claire City                  | town
+ SOUTH DAKOTA   | Garden City                  | town
+ SOUTH DAKOTA   | Lake City                    | town
+ SOUTH DAKOTA   | Mound City                   | town
+ TENNESSEE      | Ashland City                 | town
+ TENNESSEE      | Belinda City                 | CDP
+ TENNESSEE      | Cumberland City              | town
+ TENNESSEE      | Lake City                    | town
+ TENNESSEE      | Maury City                   | town
+ TENNESSEE      | Mountain City                | town
+ TENNESSEE      | Spring City                  | town
+ TENNESSEE      | Tracy City                   | town
+ TEXAS          | Beach City                   | town
+ TEXAS          | Caney City                   | town
+ TEXAS          | Coffee City                  | town
+ TEXAS          | Corral City                  | town
+ TEXAS          | Denver City                  | town
+ TEXAS          | Dodd City                    | town
+ TEXAS          | Gary City                    | town
+ TEXAS          | Gun Barrel City              | town
+ TEXAS          | Horizon City                 | town
+ TEXAS          | Karnes City                  | town
+ TEXAS          | Lake City                    | town
+ TEXAS          | Lakeside City                | town
+ TEXAS          | Liberty City                 | CDP
+ TEXAS          | Post Oak Bend City           | town
+ TEXAS          | Rio Grande City              | CDP
+ TEXAS          | Sullivan City                | CDP
+ UTAH           | Bear River City              | town
+ UTAH           | Garden City                  | town
+ UTAH           | Oak City                     | town
+ UTAH           | White City                   | CDP
+ VIRGINIA       | Chase City                   | town
+ VIRGINIA       | Dale City                    | CDP
+ VIRGINIA       | Gate City                    | town
+ VIRGINIA       | Pamplin City                 | town
+ VIRGINIA       | Stephens City                | town
+ VIRGINIA       | Weber City                   | town
+ WASHINGTON     | Coulee City                  | town
+ WASHINGTON     | Electric City                | town
+ WASHINGTON     | Elmer City                   | town
+ WASHINGTON     | Fall City                    | CDP
+ WASHINGTON     | Navy Yard City               | CDP
+ WEST VIRGINIA  | Coal City                    | CDP
+ WEST VIRGINIA  | Hartford City                | town
+ WEST VIRGINIA  | Star City                    | town
+ WISCONSIN      | Bay City                     | village
+ WISCONSIN      | Genoa City                   | village
+ WISCONSIN      | Junction City                | village
+ WISCONSIN      | Marathon City                | village
+ WISCONSIN      | Plum City                    | village
+ WISCONSIN      | Sauk City                    | village
+(251 rows)
+
+   state_name   | no_big_city | big_city_population 
+----------------+-------------+---------------------
+ ARIZONA        |           6 |             2096952
+ CALIFORNIA     |          44 |            12711094
+ COLORADO       |           4 |             1097334
+ CONNECTICUT    |           5 |              628916
+ FLORIDA        |           8 |             1625736
+ ILLINOIS       |           4 |             3141883
+ MASSACHUSETTS  |           4 |             1004464
+ MICHIGAN       |           8 |             1958298
+ MISSOURI       |           4 |             1084626
+ NEW YORK       |           6 |             8335347
+ NORTH CAROLINA |           5 |             1067502
+ OHIO           |           6 |             2240572
+ PENNSYLVANIA   |           4 |             2169264
+ TEXAS          |          19 |             6997654
+ VIRGINIA       |           8 |             1528258
+(15 rows)
+
+      type      | place |  mcd  | county 
+----------------+-------+-------+--------
+ barrio         |     0 |   823 |      0
+ barrio-pueblo  |     0 |    69 |      0
+ borough        |  1226 |  1232 |     14
+ CDP            |  4203 |     0 |      0
+ census area    |     0 |     0 |     11
+ census subarea |     0 |    40 |      0
+ city           |  9716 |  2649 |     43
+ comunidad      |   142 |     0 |      0
+ county         |     0 |    14 |   3006
+ district       |     0 |  2126 |      0
+ division       |     0 |  5581 |      0
+ gore           |     0 |     4 |      0
+ grant          |     0 |     9 |      0
+ location       |     0 |     4 |      0
+ municipality   |     0 |     4 |      0
+ parish         |     0 |     0 |     64
+ plantation     |     0 |    36 |      0
+ precinct       |     0 |   948 |      0
+ purchase       |     0 |     6 |      0
+ reservation    |     0 |    17 |      0
+ state          |     0 |    15 |      0
+ subdistrict    |     0 |    20 |      0
+ town           |  4603 |  3779 |      0
+ township       |     0 | 18138 |      0
+ unorg.         |     0 |   277 |      0
+ urbana         |    78 |     0 |      0
+ village        |  3809 |   485 |      0
+(27 rows)
+
+           name           | population | pc_population | land_area  | pc_land_area 
+--------------------------+------------+---------------+------------+--------------
+ ALABAMA                  |    4040587 |          1.60 |  131443117 |         1.43
+ ALASKA                   |     550043 |          0.22 | 1477267515 |        16.11
+ AMERICAN SOMOA           |      46773 |          0.02 |     200270 |         0.00
+ ARIZONA                  |    3665228 |          1.45 |  294333362 |         3.21
+ ARKANSAS                 |    2350725 |          0.93 |  134875069 |         1.47
+ CALIFORNIA               |   29760021 |         11.78 |  403970679 |         4.41
+ COLORADO                 |    3294394 |          1.30 |  268657691 |         2.93
+ CONNECTICUT              |    3287116 |          1.30 |   12549571 |         0.14
+ DELAWARE                 |     666168 |          0.26 |    5062455 |         0.06
+ DISTRICT OF COLUMBIA     |     606900 |          0.24 |     159055 |         0.00
+ FLORIDA                  |   12937926 |          5.12 |  139697308 |         1.52
+ GEORGIA                  |    6478216 |          2.57 |  150009517 |         1.64
+ GUAM                     |     133152 |          0.05 |     543463 |         0.01
+ HAWAII                   |    1108229 |          0.44 |   16636478 |         0.18
+ IDAHO                    |    1006749 |          0.40 |  214324967 |         2.34
+ ILLINOIS                 |   11430602 |          4.53 |  143986609 |         1.57
+ INDIANA                  |    5544159 |          2.20 |   92903619 |         1.01
+ IOWA                     |    2768572 |          1.10 |  144689556 |         1.58
+ KANSAS                   |    2477574 |          0.98 |  211921621 |         2.31
+ KENTUCKY                 |    3685296 |          1.46 |  102906735 |         1.12
+ LOUISIANA                |    4219973 |          1.67 |  112836222 |         1.23
+ MAINE                    |    1227928 |          0.49 |   79939104 |         0.87
+ MARYLAND                 |    4781468 |          1.89 |   25316318 |         0.28
+ MASSACHUSETTS            |    6016425 |          2.38 |   20300302 |         0.22
+ MICHIGAN                 |    9294845 |          3.68 |  146669903 |         1.60
+ MINNESOTA                |    4375099 |          1.73 |  206206745 |         2.25
+ MISSISSIPPI              |    2573216 |          1.02 |  121506404 |         1.33
+ MISSOURI                 |    5117073 |          2.03 |  178446011 |         1.95
+ MONTANA                  |     799065 |          0.32 |  376990894 |         4.11
+ NEBRASKA                 |    1578385 |          0.62 |  199113173 |         2.17
+ NEVADA                   |    1201833 |          0.48 |  284396327 |         3.10
+ NEW HAMPSHIRE            |    1109252 |          0.44 |   23230673 |         0.25
+ NEW JERSEY               |    7730188 |          3.06 |   19214779 |         0.21
+ NEW MEXICO               |    1515069 |          0.60 |  314334035 |         3.43
+ NEW YORK                 |   17990455 |          7.12 |  122309743 |         1.33
+ NORTH CAROLINA           |    6628637 |          2.62 |  126179811 |         1.38
+ NORTH DAKOTA             |     638800 |          0.25 |  178695204 |         1.95
+ NORTHERN MARIANA ISLANDS |      43345 |          0.02 |     463661 |         0.01
+ OHIO                     |   10843078 |          4.29 |  106008034 |         1.16
+ OKLAHOMA                 |    3145585 |          1.25 |  177877409 |         1.94
+ OREGON                   |    2842321 |          1.13 |  248646415 |         2.71
+ PALAU                    |      15122 |          0.01 |     458391 |         0.00
+ PENNSYLVANIA             |   11881643 |          4.70 |  116082670 |         1.27
+ PUERTO RICO              |    3508556 |          1.39 |    8862566 |         0.10
+ RHODE ISLAND             |    1003464 |          0.40 |    2706520 |         0.03
+ SOUTH CAROLINA           |    3486703 |          1.38 |   77987813 |         0.85
+ SOUTH DAKOTA             |     696004 |          0.28 |  196570627 |         2.14
+ TENNESSEE                |    4877185 |          1.93 |  106758491 |         1.16
+ TEXAS                    |   16986510 |          6.73 |  678358058 |         7.40
+ UTAH                     |    1722850 |          0.68 |  212815498 |         2.32
+ VERMONT                  |     562758 |          0.22 |   23955760 |         0.26
+ VIRGINIA                 |    6187358 |          2.45 |  102558208 |         1.12
+ VIRGIN ISLANDS           |     101809 |          0.04 |     346437 |         0.00
+ WASHINGTON               |    4866692 |          1.93 |  172445421 |         1.88
+ WEST VIRGINIA            |    1793477 |          0.71 |   62384197 |         0.68
+ WISCONSIN                |    4891769 |          1.94 |  140672415 |         1.53
+ WYOMING                  |     453588 |          0.18 |  251500801 |         2.74
+(57 rows)
+
+      state_name      |         county_name          | population 
+----------------------+------------------------------+------------
+ ALABAMA              | Jefferson County             |     651525
+ ALABAMA              | Mobile County                |     378643
+ ALABAMA              | Madison County               |     238912
+ ALABAMA              | Montgomery County            |     209085
+ ALABAMA              | Tuscaloosa County            |     150522
+ ALASKA               | Anchorage Borough            |     226338
+ ALASKA               | Fairbanks North Star Borough |      77720
+ ALASKA               | Kenai Peninsula Borough      |      40802
+ ALASKA               | Matanuska-Susitna Borough    |      39683
+ ALASKA               | Juneau Borough               |      26751
+ ARIZONA              | Maricopa County              |    2122101
+ ARIZONA              | Pima County                  |     666880
+ ARIZONA              | Pinal County                 |     116379
+ ARIZONA              | Yavapai County               |     107714
+ ARIZONA              | Yuma County                  |     106895
+ ARKANSAS             | Pulaski County               |     349660
+ ARKANSAS             | Washington County            |     113409
+ ARKANSAS             | Sebastian County             |      99590
+ ARKANSAS             | Benton County                |      97499
+ ARKANSAS             | Jefferson County             |      85487
+ CALIFORNIA           | Los Angeles County           |    8863164
+ CALIFORNIA           | San Diego County             |    2498016
+ CALIFORNIA           | Orange County                |    2410556
+ CALIFORNIA           | Santa Clara County           |    1497577
+ CALIFORNIA           | San Bernardino County        |    1418380
+ COLORADO             | Denver County                |     467610
+ COLORADO             | Jefferson County             |     438430
+ COLORADO             | El Paso County               |     397014
+ COLORADO             | Arapahoe County              |     391511
+ COLORADO             | Adams County                 |     265038
+ CONNECTICUT          | Hartford County              |     851783
+ CONNECTICUT          | Fairfield County             |     827645
+ CONNECTICUT          | New Haven County             |     804219
+ CONNECTICUT          | New London County            |     254957
+ CONNECTICUT          | Litchfield County            |     174092
+ DELAWARE             | New Castle County            |     441946
+ DELAWARE             | Sussex County                |     113229
+ DELAWARE             | Kent County                  |     110993
+ DISTRICT OF COLUMBIA | District of Columbia         |     606900
+ FLORIDA              | Dade County                  |    1937094
+ FLORIDA              | Broward County               |    1255488
+ FLORIDA              | Palm Beach County            |     863518
+ FLORIDA              | Pinellas County              |     851659
+ FLORIDA              | Hillsborough County          |     834054
+ GEORGIA              | Fulton County                |     648951
+ GEORGIA              | DeKalb County                |     545837
+ GEORGIA              | Cobb County                  |     447745
+ GEORGIA              | Gwinnett County              |     352910
+ GEORGIA              | Chatham County               |     216935
+ HAWAII               | Honolulu County              |     836231
+ HAWAII               | Hawaii County                |     120317
+ HAWAII               | Maui County                  |     100374
+ HAWAII               | Kauai County                 |      51177
+ HAWAII               | Kalawao County               |        130
+ IDAHO                | Ada County                   |     205775
+ IDAHO                | Canyon County                |      90076
+ IDAHO                | Bonneville County            |      72207
+ IDAHO                | Kootenai County              |      69795
+ IDAHO                | Bannock County               |      66026
+ ILLINOIS             | Cook County                  |    5105067
+ ILLINOIS             | DuPage County                |     781666
+ ILLINOIS             | Lake County                  |     516418
+ ILLINOIS             | Will County                  |     357313
+ ILLINOIS             | Kane County                  |     317471
+ INDIANA              | Marion County                |     797159
+ INDIANA              | Lake County                  |     475594
+ INDIANA              | Allen County                 |     300836
+ INDIANA              | St. Joseph County            |     247052
+ INDIANA              | Vanderburgh County           |     165058
+ IOWA                 | Polk County                  |     327140
+ IOWA                 | Linn County                  |     168767
+ IOWA                 | Scott County                 |     150979
+ IOWA                 | Black Hawk County            |     123798
+ IOWA                 | Woodbury County              |      98276
+ KANSAS               | Sedgwick County              |     403662
+ KANSAS               | Johnson County               |     355054
+ KANSAS               | Wyandotte County             |     161993
+ KANSAS               | Shawnee County               |     160976
+ KANSAS               | Douglas County               |      81798
+ KENTUCKY             | Jefferson County             |     664937
+ KENTUCKY             | Fayette County               |     225366
+ KENTUCKY             | Kenton County                |     142031
+ KENTUCKY             | Hardin County                |      89240
+ KENTUCKY             | Daviess County               |      87189
+ LOUISIANA            | Orleans Parish               |     496938
+ LOUISIANA            | Jefferson Parish             |     448306
+ LOUISIANA            | East Baton Rouge Parish      |     380105
+ LOUISIANA            | Caddo Parish                 |     248253
+ LOUISIANA            | Calcasieu Parish             |     168134
+ MAINE                | Cumberland County            |     243135
+ MAINE                | York County                  |     164587
+ MAINE                | Penobscot County             |     146601
+ MAINE                | Kennebec County              |     115904
+ MAINE                | Androscoggin County          |     105259
+ MARYLAND             | Montgomery County            |     757027
+ MARYLAND             | Baltimore                    |     736014
+ MARYLAND             | Prince George's County       |     729268
+ MARYLAND             | Baltimore County             |     692134
+ MARYLAND             | Anne Arundel County          |     427239
+ MASSACHUSETTS        | Middlesex County             |    1398468
+ MASSACHUSETTS        | Worcester County             |     709705
+ MASSACHUSETTS        | Essex County                 |     670080
+ MASSACHUSETTS        | Suffolk County               |     663906
+ MASSACHUSETTS        | Norfolk County               |     616087
+ MICHIGAN             | Wayne County                 |    2111687
+ MICHIGAN             | Oakland County               |    1083592
+ MICHIGAN             | Macomb County                |     717400
+ MICHIGAN             | Kent County                  |     500631
+ MICHIGAN             | Genesee County               |     430459
+ MINNESOTA            | Hennepin County              |    1032431
+ MINNESOTA            | Ramsey County                |     485765
+ MINNESOTA            | Dakota County                |     275227
+ MINNESOTA            | Anoka County                 |     243641
+ MINNESOTA            | St. Louis County             |     198213
+ MISSISSIPPI          | Hinds County                 |     254441
+ MISSISSIPPI          | Harrison County              |     165365
+ MISSISSIPPI          | Jackson County               |     115243
+ MISSISSIPPI          | Rankin County                |      87161
+ MISSISSIPPI          | Lauderdale County            |      75555
+ MISSOURI             | St. Louis County             |     993529
+ MISSOURI             | Jackson County               |     633232
+ MISSOURI             | St. Louis                    |     396685
+ MISSOURI             | St. Charles County           |     212907
+ MISSOURI             | Greene County                |     207949
+ MONTANA              | Yellowstone County           |     113419
+ MONTANA              | Missoula County              |      78687
+ MONTANA              | Cascade County               |      77691
+ MONTANA              | Flathead County              |      59218
+ MONTANA              | Gallatin County              |      50463
+ NEBRASKA             | Douglas County               |     416444
+ NEBRASKA             | Lancaster County             |     213641
+ NEBRASKA             | Sarpy County                 |     102583
+ NEBRASKA             | Hall County                  |      48925
+ NEBRASKA             | Buffalo County               |      37447
+ NEVADA               | Clark County                 |     741459
+ NEVADA               | Washoe County                |     254667
+ NEVADA               | Carson City                  |      40443
+ NEVADA               | Elko County                  |      33530
+ NEVADA               | Douglas County               |      27637
+ NEW HAMPSHIRE        | Hillsborough County          |     336073
+ NEW HAMPSHIRE        | Rockingham County            |     245845
+ NEW HAMPSHIRE        | Merrimack County             |     120005
+ NEW HAMPSHIRE        | Strafford County             |     104233
+ NEW HAMPSHIRE        | Grafton County               |      74929
+ NEW JERSEY           | Bergen County                |     825380
+ NEW JERSEY           | Essex County                 |     778206
+ NEW JERSEY           | Middlesex County             |     671780
+ NEW JERSEY           | Monmouth County              |     553124
+ NEW JERSEY           | Hudson County                |     553099
+ NEW MEXICO           | Bernalillo County            |     480577
+ NEW MEXICO           | Dona Ana County              |     135510
+ NEW MEXICO           | Santa Fe County              |      98928
+ NEW MEXICO           | San Juan County              |      91605
+ NEW MEXICO           | Sandoval County              |      63319
+ NEW YORK             | Kings County                 |    2300664
+ NEW YORK             | Queens County                |    1951598
+ NEW YORK             | New York County              |    1487536
+ NEW YORK             | Suffolk County               |    1321864
+ NEW YORK             | Nassau County                |    1287348
+ NORTH CAROLINA       | Mecklenburg County           |     511433
+ NORTH CAROLINA       | Wake County                  |     423380
+ NORTH CAROLINA       | Guilford County              |     347420
+ NORTH CAROLINA       | Cumberland County            |     274566
+ NORTH CAROLINA       | Forsyth County               |     265878
+ NORTH DAKOTA         | Cass County                  |     102874
+ NORTH DAKOTA         | Grand Forks County           |      70683
+ NORTH DAKOTA         | Burleigh County              |      60131
+ NORTH DAKOTA         | Ward County                  |      57921
+ NORTH DAKOTA         | Morton County                |      23700
+ OHIO                 | Cuyahoga County              |    1412140
+ OHIO                 | Franklin County              |     961437
+ OHIO                 | Hamilton County              |     866228
+ OHIO                 | Montgomery County            |     573809
+ OHIO                 | Summit County                |     514990
+ OKLAHOMA             | Oklahoma County              |     599611
+ OKLAHOMA             | Tulsa County                 |     503341
+ OKLAHOMA             | Cleveland County             |     174253
+ OKLAHOMA             | Comanche County              |     111486
+ OKLAHOMA             | Canadian County              |      74409
+ OREGON               | Multnomah County             |     583887
+ OREGON               | Washington County            |     311554
+ OREGON               | Lane County                  |     282912
+ OREGON               | Clackamas County             |     278850
+ OREGON               | Marion County                |     228483
+ PENNSYLVANIA         | Philadelphia County          |    1585577
+ PENNSYLVANIA         | Allegheny County             |    1336449
+ PENNSYLVANIA         | Montgomery County            |     678111
+ PENNSYLVANIA         | Delaware County              |     547651
+ PENNSYLVANIA         | Bucks County                 |     541174
+ RHODE ISLAND         | Providence County            |     596270
+ RHODE ISLAND         | Kent County                  |     161135
+ RHODE ISLAND         | Washington County            |     110006
+ RHODE ISLAND         | Newport County               |      87194
+ RHODE ISLAND         | Bristol County               |      48859
+ SOUTH CAROLINA       | Greenville County            |     320167
+ SOUTH CAROLINA       | Charleston County            |     295039
+ SOUTH CAROLINA       | Richland County              |     285720
+ SOUTH CAROLINA       | Spartanburg County           |     226800
+ SOUTH CAROLINA       | Lexington County             |     167611
+ SOUTH DAKOTA         | Minnehaha County             |     123809
+ SOUTH DAKOTA         | Pennington County            |      81343
+ SOUTH DAKOTA         | Brown County                 |      35580
+ SOUTH DAKOTA         | Brookings County             |      25207
+ SOUTH DAKOTA         | Codington County             |      22698
+ TENNESSEE            | Shelby County                |     826330
+ TENNESSEE            | Davidson County              |     510784
+ TENNESSEE            | Knox County                  |     335749
+ TENNESSEE            | Hamilton County              |     285536
+ TENNESSEE            | Sullivan County              |     143596
+ TEXAS                | Harris County                |    2818199
+ TEXAS                | Dallas County                |    1852810
+ TEXAS                | Bexar County                 |    1185394
+ TEXAS                | Tarrant County               |    1170103
+ TEXAS                | El Paso County               |     591610
+ UTAH                 | Salt Lake County             |     725956
+ UTAH                 | Utah County                  |     263590
+ UTAH                 | Davis County                 |     187941
+ UTAH                 | Weber County                 |     158330
+ UTAH                 | Cache County                 |      70183
+ VERMONT              | Chittenden County            |     131761
+ VERMONT              | Rutland County               |      62142
+ VERMONT              | Washington County            |      54928
+ VERMONT              | Windsor County               |      54055
+ VERMONT              | Windham County               |      41588
+ VIRGINIA             | Fairfax County               |     818584
+ VIRGINIA             | Virginia Beach               |     393069
+ VIRGINIA             | Norfolk                      |     261229
+ VIRGINIA             | Henrico County               |     217881
+ VIRGINIA             | Prince William County        |     215686
+ WASHINGTON           | King County                  |    1507319
+ WASHINGTON           | Pierce County                |     586203
+ WASHINGTON           | Snohomish County             |     465642
+ WASHINGTON           | Spokane County               |     361364
+ WASHINGTON           | Clark County                 |     238053
+ WEST VIRGINIA        | Kanawha County               |     207619
+ WEST VIRGINIA        | Cabell County                |      96827
+ WEST VIRGINIA        | Wood County                  |      86915
+ WEST VIRGINIA        | Raleigh County               |      76819
+ WEST VIRGINIA        | Monongalia County            |      75509
+ WISCONSIN            | Milwaukee County             |     959275
+ WISCONSIN            | Dane County                  |     367085
+ WISCONSIN            | Waukesha County              |     304715
+ WISCONSIN            | Brown County                 |     194594
+ WISCONSIN            | Racine County                |     175034
+ WYOMING              | Laramie County               |      73142
+ WYOMING              | Natrona County               |      61226
+ WYOMING              | Sweetwater County            |      38823
+ WYOMING              | Fremont County               |      33662
+ WYOMING              | Albany County                |      30797
+(249 rows)
+
+ zip_code |     zip_name     |               name                | distance 
+----------+------------------+-----------------------------------+----------
+    90001 | LOS ANGELES      | Florence-Graham                   |     0.45
+    90008 | LOS ANGELES      | View Park-Windsor Hills           |     1.12
+    90022 | EAST LOS ANGELES | East Los Angeles                  |     0.96
+    90040 | CITY OF COMMERCE | Commerce                          |     0.08
+    90047 | LOS ANGELES      | Westmont                          |     1.09
+    90056 | LOS ANGELES      | Ladera Heights                    |     0.62
+    90058 | VERNON           | Vernon                            |     1.44
+    90059 | LOS ANGELES      | Willowbrook                       |     0.94
+    90061 | LOS ANGELES      | West Athens                       |     1.72
+    90069 | WEST HOLLYWOOD   | West Hollywood                    |     0.46
+    90201 | BELL GARDENS     | Bell                              |     0.79
+    90201 | BELL GARDENS     | Bell Gardens                      |     1.08
+    90201 | BELL GARDENS     | Cudahy                            |     0.63
+    90210 | BEVERLY HILLS    | Beverly Hills                     |     0.78
+    90210 | BEVERLY HILLS    | Los Angeles                       |     1.50
+    90220 | RANCHO DOMINGUEZ | Compton                           |     0.71
+    90221 | EAST RANCHO DOMI | East Compton                      |     0.53
+    90232 | CULVER CITY      | Culver City                       |     0.74
+    90241 | DOWNEY           | Downey                            |     0.24
+    90245 | EL SEGUNDO       | El Segundo                        |     1.17
+    90247 | GARDENA          | Gardena                           |     0.49
+    90247 | GARDENA          | West Compton                      |     1.48
+    90250 | HOLLY PARK       | Del Aire                          |     1.23
+    90250 | HOLLY PARK       | Hawthorne                         |     0.10
+    90254 | HERMOSA BEACH    | Hermosa Beach                     |     1.74
+    90255 | HUNTINGTON PARK  | Huntington Park                   |     0.24
+    90255 | HUNTINGTON PARK  | Walnut Park                       |     0.60
+    90260 | LAWNDALE         | Lawndale                          |     0.10
+    90262 | LYNWOOD          | Lynwood                           |     0.03
+    90265 | MALIBU           | Point Dume                        |     4.16
+    90266 | MANHATTAN BEACH  | Manhattan Beach                   |     1.27
+    90270 | MAYWOOD          | Maywood                           |     0.01
+    90274 | PALOS VERDES EST | Palos Verdes Estates              |     1.69
+    90274 | PALOS VERDES EST | Rancho Palos Verdes               |     1.04
+    90274 | PALOS VERDES EST | Rolling Hills                     |     1.93
+    90274 | PALOS VERDES EST | Rolling Hills Estates             |     1.52
+    90278 | REDONDO BEACH    | Redondo Beach                     |     0.99
+    90280 | SOUTH GATE       | South Gate                        |     0.55
+    90292 | MARINA DEL REY   | Marina del Rey                    |     0.18
+    90301 | INGLEWOOD        | Inglewood                         |     0.67
+    90304 | LENNOX           | Lennox                            |     0.15
+    90401 | SANTA MONICA     | Santa Monica                      |     0.32
+    90502 | TORRANCE         | West Carson                       |     0.47
+    90503 | TORRANCE         | Torrance                          |     0.84
+    90506 | TORRANCE         | Alondra Park                      |     0.28
+    90602 | WHITTIER         | Whittier                          |     0.70
+    90603 | WHITTIER         | East La Mirada                    |     1.29
+    90605 | WHITTIER         | South Whittier                    |     0.65
+    90606 | LOS NIETOS       | West Whittier-Los Nietos          |     0.12
+    90621 | BUENA PARK       | Buena Park                        |     1.16
+    90623 | CERRITOS         | La Palma                          |     0.16
+    90630 | CYPRESS          | Cypress                           |     0.16
+    90631 | LA HABRA HEIGHTS | La Habra                          |     0.33
+    90631 | LA HABRA HEIGHTS | La Habra Heights                  |     2.01
+    90638 | LA MIRADA        | La Mirada                         |     0.32
+    90640 | MONTEBELLO       | Montebello                        |     0.22
+    90650 | NORWALK          | Norwalk                           |     0.09
+    90660 | PICO RIVERA      | Pico Rivera                       |     0.08
+    90670 | SANTA FE SPRINGS | Santa Fe Springs                  |     1.52
+    90680 | STANTON          | Stanton                           |     0.27
+    90701 | CERRITOS         | Artesia                           |     0.65
+    90701 | CERRITOS         | Cerritos                          |     0.07
+    90704 | AVALON           | Avalon                            |     1.18
+    90706 | BELLFLOWER       | Bellflower                        |     0.10
+    90713 | LAKEWOOD         | Lakewood                          |     0.60
+    90716 | HAWAIIAN GARDENS | Hawaiian Gardens                  |     0.08
+    90717 | RANCHO PALOS VER | Lomita                            |     0.02
+    90720 | ROSSMOOR         | Los Alamitos                      |     0.70
+    90720 | ROSSMOOR         | Rossmoor                          |     0.64
+    90723 | PARAMOUNT        | Paramount                         |     0.10
+    90740 | SEAL BEACH       | Seal Beach                        |     0.51
+    90745 | CARSON           | Carson                            |     1.07
+    90804 | SIGNAL HILL      | Long Beach                        |     0.48
+    90806 | SIGNAL HILL      | Signal Hill                       |     1.16
+    91001 | ALTADENA         | Altadena                          |     0.26
+    91006 | ARCADIA          | Arcadia                           |     0.52
+    91006 | ARCADIA          | Mayflower Village                 |     1.52
+    91010 | BRADBURY         | Bradbury                          |     1.02
+    91010 | BRADBURY         | Duarte                            |     1.58
+    91010 | BRADBURY         | Irwindale                         |     1.72
+    91011 | FLINTRIDGE       | La Canada Flintridge              |     0.12
+    91016 | MONROVIA         | Monrovia                          |     1.44
+    91024 | SIERRA MADRE     | Sierra Madre                      |     0.28
+    91030 | SOUTH PASADENA   | South Pasadena                    |     0.13
+    91104 | PASADENA         | Pasadena                          |     0.85
+    91107 | PASADENA         | East Pasadena                     |     1.09
+    91108 | SAN MARINO       | San Marino                        |     0.13
+    91207 | GLENDALE         | Glendale                          |     0.92
+    91214 | LA CRESCENTA     | La Crescenta-Montrose             |     0.60
+    91301 | OAK PARK         | Agoura Hills                      |     0.44
+    91301 | OAK PARK         | Oak Park                          |     0.97
+    91302 | CALABASAS        | Hidden Hills                      |     1.75
+    91320 | NEWBURY PARK     | Casa Conejo                       |     0.56
+    91321 | NEWHALL          | Santa Clarita                     |     2.39
+    91340 | SAN FERNANDO     | San Fernando                      |     0.13
+    91360 | THOUSAND OAKS    | Thousand Oaks                     |     1.16
+    91361 | WESTLAKE VILLAGE | Westlake Village                  |     1.21
+    91384 | CASTAIC          | Val Verde                         |     3.02
+    91504 | BURBANK          | Burbank                           |     0.59
+    91702 | AZUSA            | Azusa                             |     1.03
+    91702 | AZUSA            | Citrus                            |     0.95
+    91706 | IRWINDALE        | Baldwin Park                      |     0.12
+    91709 | CHINO HILLS      | Chino Hills                       |     1.05
+    91709 | CHINO HILLS      | Los Serranos                      |     1.60
+    91710 | CHINO            | Chino                             |     0.39
+    91711 | CLAREMONT        | Claremont                         |     0.87
+    91719 | CORONA           | El Cerrito                        |     1.57
+    91719 | CORONA           | Home Gardens                      |     1.66
+    91720 | CORONA           | Corona                            |     1.51
+    91722 | COVINA           | Vincent                           |     0.95
+    91723 | COVINA           | Covina                            |     0.33
+    91724 | COVINA           | Charter Oak                       |     0.59
+    91731 | EL MONTE         | El Monte                          |     0.60
+    91733 | SOUTH EL MONTE   | South El Monte                    |     0.50
+    91737 | ALTA LOMA        | Rancho Cucamonga                  |     1.51
+    91740 | GLENDORA         | Glendora                          |     1.33
+    91744 | INDUSTRY         | Industry                          |     1.29
+    91744 | INDUSTRY         | La Puente                         |     1.03
+    91744 | INDUSTRY         | Valinda                           |     0.72
+    91745 | HACIENDA HEIGHTS | Hacienda Heights                  |     0.37
+    91746 | BASSETT          | Avocado Heights                   |     1.47
+    91746 | BASSETT          | West Puente Valley                |     0.71
+    91748 | ROWLAND HEIGHTS  | Rowland Heights                   |     0.34
+    91750 | LA VERNE         | La Verne                          |     0.16
+    91752 | MIRA LOMA        | Glen Avon                         |     2.56
+    91752 | MIRA LOMA        | Mira Loma                         |     0.87
+    91754 | MONTEREY PARK    | Monterey Park                     |     0.48
+    91760 | NORCO            | Norco                             |     0.41
+    91761 | ONTARIO          | Ontario                           |     1.69
+    91763 | MONTCLAIR        | Montclair                         |     0.12
+    91765 | DIAMOND BAR      | Diamond Bar                       |     0.54
+    91768 | POMONA           | Pomona                            |     0.96
+    91770 | ROSEMEAD         | Rosemead                          |     0.28
+    91770 | ROSEMEAD         | South San Gabriel                 |     1.30
+    91773 | SAN DIMAS        | San Dimas                         |     0.71
+    91775 | SAN GABRIEL      | East San Gabriel                  |     0.44
+    91776 | SAN GABRIEL      | San Gabriel                       |     0.40
+    91780 | TEMPLE CITY      | North El Monte                    |     1.69
+    91780 | TEMPLE CITY      | Temple City                       |     0.20
+    91786 | UPLAND           | San Antonio Heights               |     2.69
+    91786 | UPLAND           | Upland                            |     0.30
+    91789 | DIAMOND BAR      | Walnut                            |     0.83
+    91791 | WEST COVINA      | West Covina                       |     1.00
+    91792 | WEST COVINA      | South San Jose Hills              |     0.76
+    91801 | ALHAMBRA         | Alhambra                          |     0.58
+    91901 | ALPINE           | Alpine                            |     1.07
+    91901 | ALPINE           | Harbison Canyon                   |     4.29
+    91902 | BONITA           | Bonita                            |     0.44
+    91910 | CHULA VISTA      | Chula Vista                       |     1.42
+    91932 | IMPERIAL BEACH   | Imperial Beach                    |     0.59
+    91935 | JAMUL            | Jamul                             |     3.21
+    91941 | LA MESA          | La Mesa                           |     0.74
+    91945 | LEMON GROVE      | Lemon Grove                       |     0.02
+    91950 | NATIONAL CITY    | National City                     |     0.78
+    91962 | PINE VALLEY      | Pine Valley                       |     1.52
+    91977 | SPRING VALLEY    | Spring Valley                     |     0.54
+    91978 | SPRING VALLEY    | Rancho San Diego                  |     1.72
+    92003 | BONSALL          | Bonsall                           |     1.88
+    92004 | BORREGO SPRINGS  | Borrego Springs                   |     0.18
+    92009 | CARLSBAD         | Carlsbad                          |     2.34
+    92014 | DEL MAR          | Del Mar                           |     1.49
+    92019 | EL CAJON         | Casa de Oro-Mount Helix           |     1.36
+    92020 | EL CAJON         | El Cajon                          |     0.73
+    92021 | EL CAJON         | Bostonia                          |     1.33
+    92021 | EL CAJON         | Granite Hills                     |     1.45
+    92024 | ENCINITAS        | Encinitas                         |     0.53
+    92026 | ESCONDIDO        | Hidden Meadows                    |     4.42
+    92027 | ESCONDIDO        | Escondido                         |     1.10
+    92028 | FALLBROOK        | Fallbrook                         |     0.50
+    92036 | JULIAN           | Julian                            |     1.80
+    92040 | LAKESIDE         | Lakeside                          |     0.75
+    92054 | OCEANSIDE        | Camp Pendleton South              |     1.98
+    92057 | OCEANSIDE        | Oceanside                         |     1.14
+    92059 | PALA             | Rainbow                           |     4.65
+    92064 | POWAY            | Poway                             |     1.42
+    92065 | RAMONA           | Ramona                            |     1.04
+    92065 | RAMONA           | San Diego Country Estates         |     4.28
+    92068 | SAN LUIS REY     | Camp Pendleton North              |     1.40
+    92069 | SAN MARCOS       | Lake San Marcos                   |     2.80
+    92069 | SAN MARCOS       | San Marcos                        |     0.56
+    92071 | SANTEE           | Santee                            |     0.48
+    92075 | SOLANA BEACH     | Solana Beach                      |     0.26
+    92082 | VALLEY CENTER    | Valley Center                     |     2.13
+    92083 | VISTA            | Vista                             |     0.44
+    92123 | SAN DIEGO        | San Diego                         |     1.21
+    92155 | SAN DIEGO        | Coronado                          |     3.15
+    92201 | CHIRIACO SUMMIT  | Bermuda Dunes                     |     3.26
+    92201 | CHIRIACO SUMMIT  | Indio                             |     0.42
+    92210 | INDIAN WELLS     | Indian Wells                      |     0.75
+    92210 | INDIAN WELLS     | Palm Desert Country               |     2.10
+    92220 | BANNING          | Banning                           |     0.63
+    92223 | BEAUMONT         | Beaumont                          |     1.34
+    92223 | BEAUMONT         | Cherry Valley                     |     1.51
+    92225 | LOST LAKE        | Blythe                            |     0.47
+    92225 | LOST LAKE        | East Blythe                       |     1.18
+    92227 | BRAWLEY          | Brawley                           |     0.22
+    92230 | CABAZON          | Cabazon                           |     0.23
+    92231 | CALEXICO         | Calexico                          |     0.34
+    92231 | CALEXICO         | Heber                             |     3.57
+    92233 | CALIPATRIA       | Calipatria                        |     2.70
+    92233 | CALIPATRIA       | Niland                            |     4.82
+    92234 | CATHEDRAL CITY   | Cathedral City                    |     1.42
+    92236 | COACHELLA        | Coachella                         |     1.45
+    92242 | BIG RIVER        | Big River                         |     1.33
+    92242 | BIG RIVER        | Bluewater                         |     4.19
+    92243 | EL CENTRO        | El Centro                         |     0.43
+    92250 | HOLTVILLE        | Holtville                         |     0.22
+    92251 | IMPERIAL         | Imperial                          |     0.45
+    92252 | JOSHUA TREE      | Joshua Tree                       |     1.75
+    92253 | LA QUINTA        | La Quinta                         |     0.91
+    92256 | MORONGO VALLEY   | Morongo Valley                    |     1.47
+    92260 | PALM CITY        | Palm Desert                       |     0.53
+    92264 | PALM SPRINGS     | Palm Springs                      |     1.88
+    92270 | RANCHO MIRAGE    | Rancho Mirage                     |     0.46
+    92272 | BLYTHE           | Desert Hot Springs                |     0.58
+    92274 | SALTON CITY      | Mecca                             |     3.30
+    92276 | THOUSAND PALMS   | Thousand Palms                    |     1.23
+    92277 | TWENTYNINE PALMS | Twentynine Palms                  |     0.51
+    92278 | TWENTYNINE PALMS | Twentynine Palms Base             |     0.71
+    92281 | WESTMORLAND      | Westmorland                       |     0.60
+    92284 | YUCCA VALLEY     | Yucca Valley                      |     3.01
+    92301 | ADELANTO         | Adelanto                          |     1.20
+    92307 | APPLE VALLEY     | Apple Valley                      |     0.06
+    92311 | BARSTOW          | Barstow                           |     1.77
+    92311 | BARSTOW          | Lenwood                           |     3.61
+    92314 | BIG BEAR CITY    | Big Bear City                     |     4.47
+    92314 | BIG BEAR CITY    | Big Bear Lake                     |     1.45
+    92316 | BLOOMINGTON      | Bloomington                       |     0.46
+    92320 | CALIMESA         | Calimesa                          |     0.15
+    92324 | GRAND TERRACE    | Colton                            |     0.19
+    92324 | GRAND TERRACE    | Grand Terrace                     |     1.86
+    92327 | DAGGETT          | Nebo Center                       |     3.77
+    92335 | FONTANA          | Fontana                           |     1.24
+    92345 | HESPERIA         | Hesperia                          |     0.21
+    92346 | EAST HIGHLAND    | Highland                          |     1.27
+    92354 | LOMA LINDA       | Loma Linda                        |     0.60
+    92359 | MENTONE          | Mentone                           |     1.13
+    92363 | NEEDLES          | Needles                           |     2.58
+    92374 | REDLANDS         | Redlands                          |     0.52
+    92376 | RIALTO           | Rialto                            |     0.55
+    92392 | SPRING VALLEY LA | Mountain View Acres               |     1.66
+    92392 | SPRING VALLEY LA | Victorville                       |     1.46
+    92394 | GEORGE AFB       | George AFB                        |     0.34
+    92397 | WRIGHTWOOD       | Wrightwood                        |     0.38
+    92399 | YUCAIPA          | Yucaipa                           |     0.41
+    92405 | MUSCOY           | Muscoy                            |     2.02
+    92405 | MUSCOY           | San Bernardino                    |     1.07
+    92407 | SAN BERNARDINO   | Crestline                         |     2.52
+    92504 | RIVERSIDE        | Riverside                         |     1.01
+    92507 | RIVERSIDE        | Highgrove                         |     2.66
+    92508 | RIVERSIDE        | March AFB                         |     2.26
+    92508 | RIVERSIDE        | Woodcrest                         |     3.24
+    92509 | RUBIDOUX         | Pedley                            |     2.00
+    92509 | RUBIDOUX         | Rubidoux                          |     1.33
+    92509 | RUBIDOUX         | Sunnyslope                        |     1.91
+    92530 | LAKE ELSINORE    | Lake Elsinore                     |     1.64
+    92530 | LAKE ELSINORE    | Lakeland Village                  |     1.46
+    92532 | LAKE ELSINORE    | Sedco Hills                       |     1.01
+    92544 | HEMET            | East Hemet                        |     0.77
+    92544 | HEMET            | Valle Vista                       |     1.77
+    92545 | HEMET            | Hemet                             |     1.12
+    92548 | HOMELAND         | Homeland                          |     0.28
+    92548 | HOMELAND         | Winchester                        |     3.01
+    92549 | IDYLLWILD        | Idyllwild-Pine Cove               |     1.33
+    92553 | MORENO VALLEY    | Moreno Valley                     |     1.55
+    92563 | MURRIETA         | Murrieta                          |     1.87
+    92563 | MURRIETA         | Murrieta Hot Springs              |     1.57
+    92567 | LAKEVIEW         | Lakeview                          |     1.40
+    92567 | LAKEVIEW         | Nuevo                             |     1.02
+    92571 | PERRIS           | Perris                            |     1.24
+    92583 | GILMAN HOT SPRIN | San Jacinto                       |     0.67
+    92585 | ROMOLAND         | Romoland                          |     0.01
+    92586 | SUN CITY         | Sun City                          |     0.65
+    92587 | CANYON LAKE      | Canyon Lake                       |     0.36
+    92587 | CANYON LAKE      | Quail Valley                      |     1.12
+    92591 | TEMECULA         | Temecula                          |     1.28
+    92595 | WILDOMAR         | Wildomar                          |     0.86
+    92610 | FOOTHILL RANCH   | Portola Hills                     |     2.17
+    92621 | BREA             | Brea                              |     1.09
+    92626 | COSTA MESA       | Costa Mesa                        |     0.75
+    92629 | MONARCH BAY      | Dana Point                        |     1.36
+    92630 | LAKE FOREST      | El Toro                           |     0.57
+    92635 | FULLERTON        | Fullerton                         |     1.10
+    92641 | GARDEN GROVE     | Garden Grove                      |     1.05
+    92648 | HUNTINGTON BEACH | Huntington Beach                  |     1.26
+    92651 | LAGUNA NIGUEL    | Laguna Beach                      |     0.68
+    92653 | LAGUNA HILLS     | Laguna Hills                      |     0.14
+    92656 | ALISO VIEJO      | Aliso Viejo                       |     0.98
+    92661 | NEWPORT BEACH    | Newport Beach                     |     0.67
+    92667 | VILLA PARK       | Orange                            |     0.42
+    92667 | VILLA PARK       | Villa Park                        |     1.15
+    92670 | PLACENTIA        | Placentia                         |     0.30
+    92672 | SAN CLEMENTE     | San Clemente                      |     1.11
+    92675 | MISSION VIEJO    | San Juan Capistrano               |     0.73
+    92677 | LAGUNA NIGUEL    | Laguna Niguel                     |     0.25
+    92679 | COTO DE CAZA     | Coto De Caza                      |     2.10
+    92679 | COTO DE CAZA     | Trabuco Highlands                 |     1.50
+    92680 | TUSTIN           | Tustin                            |     0.66
+    92683 | WESTMINSTER      | Westminster                       |     0.13
+    92686 | YORBA LINDA      | Yorba Linda                       |     1.86
+    92688 | RANCHO SANTA MAR | Rancho Santa Margarita            |     1.08
+    92692 | MISSION VIEJO    | Mission Viejo                     |     0.53
+    92703 | SANTA ANA        | Santa Ana                         |     1.20
+    92705 | COWAN HEIGHTS    | Tustin Foothills                  |     1.72
+    92708 | FOUNTAIN VALLEY  | Fountain Valley                   |     0.11
+    92709 | EL TORO MARINE C | El Toro Station                   |     0.24
+    92715 | IRVINE           | Irvine                            |     1.61
+    92806 | ANAHEIM          | Anaheim                           |     0.23
+    93003 | SAN BUENAVENTURA | San Buenaventura (Ventura)        |     2.08
+    93010 | CAMARILLO        | Camarillo                         |     1.11
+    93013 | CARPINTERIA      | Carpinteria                       |     1.09
+    93015 | BARDSDALE        | Fillmore                          |     0.82
+    93021 | MOORPARK         | Moorpark                          |     0.45
+    93022 | OAK VIEW         | Oak View                          |     0.22
+    93023 | OJAI             | Meiners Oaks                      |     0.94
+    93023 | OJAI             | Mira Monte                        |     1.86
+    93023 | OJAI             | Ojai                              |     0.65
+    93030 | OXNARD           | El Rio                            |     2.12
+    93035 | OXNARD           | Oxnard                            |     1.03
+    93043 | PORT HUENEME CBC | Channel Islands Beach             |     0.94
+    93043 | PORT HUENEME CBC | Port Hueneme                      |     0.14
+    93060 | SANTA PAULA      | Santa Paula                       |     0.20
+    93065 | SIMI VALLEY      | Simi Valley                       |     0.80
+    93105 | SANTA BARBARA    | Santa Barbara                     |     0.68
+    93117 | GOLETA           | Isla Vista                        |     0.94
+    93202 | ARMONA           | Armona                            |     0.58
+    93203 | ARVIN            | Arvin                             |     0.25
+    93204 | AVENAL           | Avenal                            |     2.86
+    93205 | BODFISH          | Bodfish                           |     0.32
+    93206 | BUTTONWILLOW     | Buttonwillow                      |     0.24
+    93210 | COALINGA         | Coalinga                          |     1.38
+    93212 | CORCORAN         | Corcoran                          |     0.31
+    93215 | DELANO           | Delano                            |     0.51
+    93219 | EARLIMART        | Earlimart                         |     2.02
+    93221 | EXETER           | Exeter                            |     0.98
+    93223 | FARMERSVILLE     | Farmersville                      |     0.28
+    93230 | HANFORD          | Hanford                           |     0.45
+    93230 | HANFORD          | Home Garden                       |     2.04
+    93234 | HURON            | Huron                             |     2.30
+    93235 | IVANHOE          | Ivanhoe                           |     0.25
+    93238 | KERNVILLE        | Kernville                         |     1.45
+    93239 | KETTLEMAN CITY   | Kettleman City                    |     0.87
+    93240 | MOUNTAIN MESA    | Lake Isabella                     |     1.35
+    93240 | MOUNTAIN MESA    | Mountain Mesa                     |     2.03
+    93241 | LAMONT           | Lamont                            |     0.48
+    93241 | LAMONT           | Weedpatch                         |     1.35
+    93242 | LATON            | Laton                             |     1.47
+    93243 | GORMAN           | Frazier Park                      |     3.69
+    93245 | LEMOORE NAVAL AI | Lemoore                           |     2.47
+    93245 | LEMOORE NAVAL AI | Lemoore Station                   |     4.98
+    93247 | LINDSAY          | Lindsay                           |     0.22
+    93249 | LOST HILLS       | Lost Hills                        |     1.68
+    93250 | MC FARLAND       | McFarland                         |     0.51
+    93252 | MARICOPA         | Maricopa                          |     1.48
+    93256 | PIXLEY           | Pixley                            |     2.05
+    93257 | PORTERVILLE      | East Porterville                  |     3.19
+    93257 | PORTERVILLE      | Porterville                       |     0.37
+    93263 | SHAFTER          | Shafter                           |     0.50
+    93267 | STRATHMORE       | Strathmore                        |     1.08
+    93268 | TAFT             | Ford City                         |     1.24
+    93268 | TAFT             | South Taft                        |     1.42
+    93268 | TAFT             | Taft                              |     0.39
+    93268 | TAFT             | Taft Heights                      |     1.53
+    93270 | TERRA BELLA      | Terra Bella                       |     0.42
+    93272 | TIPTON           | Tipton                            |     0.32
+    93274 | TULARE           | Tulare                            |     0.55
+    93277 | VISALIA          | Visalia                           |     1.22
+    93280 | POND             | Wasco                             |     0.20
+    93283 | WELDON           | South Lake                        |     3.84
+    93285 | WOFFORD HEIGHTS  | Wofford Heights                   |     1.22
+    93286 | WOODLAKE         | Woodlake                          |     1.29
+    93304 | BAKERSFIELD      | Bakersfield                       |     1.54
+    93308 | BAKERSFIELD      | Oildale                           |     0.85
+    93312 | GREENACRES       | Greenacres                        |     1.34
+    93312 | GREENACRES       | Rosedale                          |     3.05
+    93401 | SAN LUIS OBISPO  | San Luis Obispo                   |     0.99
+    93402 | LOS OSOS         | Baywood-Los Osos                  |     0.38
+    93420 | HALCYON          | Arroyo Grande                     |     0.94
+    93422 | ATASCADERO       | Atascadero                        |     1.48
+    93427 | BUELLTON         | Buellton                          |     0.60
+    93428 | CAMBRIA          | Cambria                           |     0.71
+    93430 | CAYUCOS          | Cayucos                           |     0.56
+    93433 | GROVER BEACH     | Grover City                       |     0.06
+    93434 | GUADALUPE        | Guadalupe                         |     0.34
+    93436 | LOMPOC           | Lompoc                            |     1.06
+    93436 | LOMPOC           | Mission Hills                     |     2.03
+    93436 | LOMPOC           | Vandenberg Village                |     3.62
+    93437 | LOMPOC           | Vandenberg AFB                    |     0.27
+    93442 | MORRO BAY        | Morro Bay                         |     1.44
+    93444 | NIPOMO           | Nipomo                            |     0.39
+    93445 | OCEANO           | Oceano                            |     0.04
+    93446 | ADELAIDE         | El Paso de Robles (Paso Robles)   |     0.41
+    93449 | SHELL BEACH      | Pismo Beach                       |     1.65
+    93451 | PARKFIELD        | San Miguel                        |     0.26
+    93454 | SANTA MARIA      | Santa Maria                       |     1.20
+    93463 | BALLARD          | Santa Ynez                        |     1.47
+    93463 | BALLARD          | Solvang                           |     1.30
+    93465 | TEMPLETON        | Templeton                         |     0.15
+    93501 | MOJAVE           | Mojave                            |     0.45
+    93510 | ACTON            | Acton                             |     0.75
+    93513 | BIG PINE         | Big Pine                          |     0.26
+    93514 | TOMS PLACE       | Bishop                            |     2.70
+    93514 | TOMS PLACE       | Dixon Lane-Meadow Creek           |     1.56
+    93514 | TOMS PLACE       | West Bishop                       |     1.83
+    93516 | BORON            | Boron                             |     0.70
+    93523 | NORTH EDWARDS    | Edwards AFB                       |     1.76
+    93534 | LANCASTER        | Lancaster                         |     1.52
+    93536 | QUARTZ HILL      | Quartz Hill                       |     1.44
+    93543 | JUNIPER HILLS    | Littlerock                        |     2.13
+    93545 | LONE PINE        | Lone Pine                         |     1.45
+    93546 | CROWLEY LAKE     | Mammoth Lakes                     |     1.23
+    93550 | LAKE LOS ANGELES | Palmdale                          |     2.67
+    93550 | LAKE LOS ANGELES | Palmdale East                     |     0.91
+    93551 | LEONA VALLEY     | Desert View Highlands             |     1.77
+    93555 | CHINA LAKE NWC   | Ridgecrest                        |     1.02
+    93560 | WILLOW SPRINGS   | Rosamond                          |     0.26
+    93561 | BEAR VALLEY SPRI | Golden Hills                      |     2.00
+    93561 | BEAR VALLEY SPRI | Tehachapi                         |     4.52
+    93562 | ARGUS            | Searles Valley                    |     1.18
+    93602 | AUBERRY          | Auberry                           |     1.99
+    93609 | CARUTHERS        | Caruthers                         |     0.43
+    93610 | CHOWCHILLA       | Chowchilla                        |     1.16
+    93612 | CLOVIS           | Clovis                            |     0.41
+    93614 | COARSEGOLD       | Yosemite Lakes                    |     2.48
+    93615 | CUTLER           | Cutler                            |     0.16
+    93616 | DEL REY          | Del Rey                           |     0.29
+    93618 | DINUBA           | Dinuba                            |     0.74
+    93618 | DINUBA           | London                            |     4.60
+    93620 | DOS PALOS        | Dos Palos                         |     1.09
+    93620 | DOS PALOS        | South Dos Palos                   |     2.25
+    93622 | FIREBAUGH        | Firebaugh                         |     1.56
+    93625 | FOWLER           | Fowler                            |     0.24
+    93630 | KERMAN           | Kerman                            |     0.75
+    93631 | KINGSBURG        | Kingsburg                         |     0.99
+    93635 | LOS BANOS        | Los Banos                         |     1.03
+    93637 | MADERA           | Madera                            |     1.86
+    93637 | MADERA           | Parkwood                          |     2.26
+    93638 | MADERA           | Madera Acres                      |     4.44
+    93638 | MADERA           | Parksdale                         |     1.53
+    93640 | MENDOTA          | Mendota                           |     1.93
+    93644 | OAKHURST         | Oakhurst                          |     0.97
+    93646 | ORANGE COVE      | Orange Cove                       |     0.25
+    93647 | OROSI            | Orosi                             |     0.43
+    93648 | PARLIER          | Parlier                           |     0.12
+    93654 | REEDLEY          | Reedley                           |     0.63
+    93656 | RIVERDALE        | Riverdale                         |     0.34
+    93657 | SANGER           | Sanger                            |     1.65
+    93660 | SAN JOAQUIN      | San Joaquin                       |     0.13
+    93662 | SELMA            | Selma                             |     0.33
+    93675 | SQUAW VALLEY     | Squaw Valley                      |     1.00
+    93704 | FIG GARDEN VILLA | Fresno                            |     1.28
+    93725 | CALWA            | Easton                            |     2.97
+    93905 | SALINAS          | Salinas                           |     0.98
+    93907 | PRUNEDALE        | Prunedale                         |     2.37
+    93923 | CARMEL           | Carmel-by-the-Sea                 |     1.50
+    93924 | CARMEL VALLEY    | Carmel Valley Village             |     0.51
+    93926 | GONZALES         | Gonzales                          |     2.07
+    93927 | GREENFIELD       | Greenfield                        |     0.18
+    93930 | KING CITY        | King City                         |     0.69
+    93933 | MARINA           | Marina                            |     0.20
+    93940 | DEL REY OAKS     | Monterey                          |     0.42
+    93941 | FORT ORD         | Sand City                         |     2.16
+    93950 | PACIFIC GROVE    | Pacific Grove                     |     0.44
+    93953 | PEBBLE BEACH     | Del Monte Forest                  |     0.38
+    93955 | SAND CITY        | Del Rey Oaks                      |     1.11
+    93955 | SAND CITY        | Seaside                           |     1.24
+    93960 | SOLEDAD          | Soledad                           |     0.71
+    94002 | BELMONT          | Belmont                           |     0.20
+    94005 | BRISBANE         | Brisbane                          |     0.55
+    94010 | HILLSBOROUGH     | Burlingame                        |     0.97
+    94010 | HILLSBOROUGH     | Hillsborough                      |     1.29
+    94015 | DALY CITY        | Broadmoor                         |     0.88
+    94015 | DALY CITY        | Colma                             |     1.35
+    94015 | DALY CITY        | Daly City                         |     0.79
+    94019 | HALF MOON BAY    | El Granada                        |     2.34
+    94019 | HALF MOON BAY    | Half Moon Bay                     |     0.77
+    94022 | LOS ALTOS        | Los Altos Hills                   |     1.16
+    94022 | LOS ALTOS        | Palo Alto                         |     1.40
+    94024 | LOS ALTOS        | Los Altos                         |     1.09
+    94024 | LOS ALTOS        | Loyola                            |     0.74
+    94027 | ATHERTON         | Atherton                          |     0.16
+    94028 | LADERA           | Portola Valley                    |     0.73
+    94030 | MILLBRAE         | Millbrae                          |     0.10
+    94038 | MOSS BEACH       | Montara                           |     1.10
+    94038 | MOSS BEACH       | Moss Beach                        |     0.63
+    94043 | MOUNTAIN VIEW    | Mountain View                     |     0.24
+    94044 | PACIFICA         | Pacifica                          |     0.63
+    94062 | WOODSIDE         | Emerald Lake Hills                |     1.03
+    94062 | WOODSIDE         | Woodside                          |     1.85
+    94063 | REDWOOD CITY     | North Fair Oaks                   |     0.62
+    94063 | REDWOOD CITY     | Redwood City                      |     2.36
+    94066 | SAN BRUNO        | San Bruno                         |     0.05
+    94070 | SAN CARLOS       | San Carlos                        |     0.05
+    94086 | SUNNYVALE        | Sunnyvale                         |     0.64
+    94121 | SAN FRANCISCO    | San Francisco                     |     3.63
+    94303 | EAST PALO ALTO   | East Palo Alto                    |     0.70
+    94303 | EAST PALO ALTO   | Menlo Park                        |     1.76
+    94304 | PALO ALTO        | West Menlo Park                   |     0.94
+    94305 | STANFORD         | Stanford                          |     0.16
+    94401 | RUSSIAN RIVER    | San Mateo                         |     0.86
+    94402 | SAN MATEO        | Highlands                         |     2.23
+    94404 | FOSTER CITY      | Foster City                       |     1.30
+    94501 | COAST GUARD ISLA | Alameda                           |     1.15
+    94507 | ALAMO            | Alamo                             |     1.31
+    94508 | ANGWIN           | Angwin                            |     0.05
+    94509 | ANTIOCH          | Antioch                           |     0.64
+    94510 | BENICIA          | Benicia                           |     0.45
+    94513 | BRENTWOOD        | Brentwood                         |     1.02
+    94514 | BYRON            | Discovery Bay                     |     0.56
+    94515 | CALISTOGA        | Calistoga                         |     0.06
+    94517 | CLAYTON          | Clayton                           |     1.99
+    94519 | CONCORD          | Concord                           |     0.97
+    94520 | CONCORD          | Pacheco                           |     1.43
+    94523 | PLEASANT HILL    | Pleasant Hill                     |     0.03
+    94525 | CROCKETT         | Crockett                          |     0.11
+    94525 | CROCKETT         | Rodeo                             |     1.15
+    94526 | DANVILLE         | Danville                          |     0.29
+    94528 | DIABLO           | Blackhawk                         |     3.13
+    94530 | EL CERRITO       | El Cerrito                        |     0.38
+    94538 | FREMONT          | Fremont                           |     1.39
+    94541 | HAYWARD          | Cherryland                        |     0.77
+    94542 | HAYWARD          | Fairview                          |     1.36
+    94545 | HAYWARD          | Hayward                           |     0.55
+    94546 | CASTRO VALLEY    | Castro Valley                     |     1.11
+    94548 | KNIGHTSEN        | Bethel Island                     |     3.65
+    94549 | LAFAYETTE        | Lafayette                         |     0.35
+    94550 | LIVERMORE        | Livermore                         |     0.60
+    94553 | PACHECO          | Martinez                          |     0.53
+    94553 | PACHECO          | Vine Hill                         |     1.87
+    94556 | MORAGA           | Moraga Town                       |     0.04
+    94559 | NAPA             | Napa                              |     0.98
+    94560 | NEWARK           | Newark                            |     1.18
+    94561 | OAKLEY           | Oakley                            |     0.83
+    94563 | ORINDA           | Orinda                            |     0.28
+    94564 | PINOLE           | Bayview-Montalvin                 |     1.90
+    94564 | PINOLE           | Hercules                          |     1.66
+    94564 | PINOLE           | Pinole                            |     1.81
+    94564 | PINOLE           | Tara Hills                        |     1.61
+    94565 | SHORE ACRES      | Pittsburg                         |     1.00
+    94565 | SHORE ACRES      | West Pittsburg                    |     3.78
+    94566 | PLEASANTON       | Pleasanton                        |     0.85
+    94568 | DUBLIN           | Dublin                            |     0.68
+    94571 | RIO VISTA        | Rio Vista                         |     0.38
+    94574 | SAINT HELENA     | Deer Park                         |     1.33
+    94574 | SAINT HELENA     | St. Helena                        |     0.64
+    94577 | SAN LEANDRO      | San Leandro                       |     1.07
+    94578 | SAN LEANDRO      | Ashland                           |     0.69
+    94580 | SAN LORENZO      | San Lorenzo                       |     0.25
+    94583 | SAN RAMON        | San Ramon                         |     0.10
+    94585 | SUISUN CITY      | Fairfield                         |     0.79
+    94585 | SUISUN CITY      | Suisun City                       |     1.73
+    94587 | UNION CITY       | Union City                        |     1.97
+    94589 | AMERICAN CANYON  | American Canyon                   |     1.79
+    94590 | VALLEJO          | Vallejo                           |     0.90
+    94596 | WALNUT CREEK     | Walnut Creek                      |     0.78
+    94599 | YOUNTVILLE       | Yountville                        |     0.97
+    94601 | OAKLAND          | Oakland                           |     0.74
+    94608 | EMERYVILLE       | Emeryville                        |     1.02
+    94611 | PIEDMONT         | Piedmont                          |     0.37
+    94706 | ALBANY           | Albany                            |     1.69
+    94707 | KENSINGTON       | Kensington                        |     1.02
+    94710 | BERKELEY         | Berkeley                          |     0.17
+    94801 | RICHMOND         | Richmond                          |     0.76
+    94803 | EL SOBRANTE      | El Sobrante                       |     0.51
+    94805 | RICHMOND         | East Richmond Heights             |     0.63
+    94806 | SAN PABLO        | San Pablo                         |     0.76
+    94901 | SAN RAFAEL       | San Rafael                        |     0.84
+    94903 | CIVIC CENTER     | Lucas Valley-Marinwood            |     1.73
+    94903 | CIVIC CENTER     | Santa Venetia                     |     2.24
+    94904 | KENTFIELD        | Kentfield                         |     0.63
+    94904 | KENTFIELD        | Ross                              |     1.53
+    94920 | BELVEDERE        | Belvedere                         |     1.25
+    94920 | BELVEDERE        | Tiburon                           |     0.87
+    94923 | BODEGA BAY       | Bodega Bay                        |     0.68
+    94924 | BOLINAS          | Bolinas                           |     0.20
+    94925 | CORTE MADERA     | Corte Madera                      |     0.33
+    94928 | ROHNERT PARK     | Rohnert Park                      |     0.20
+    94930 | FAIRFAX          | Fairfax                           |     0.02
+    94931 | COTATI           | Cotati                            |     0.28
+    94933 | FOREST KNOLLS    | Lagunitas-Forest Knolls           |     0.26
+    94937 | INVERNESS        | Inverness                         |     0.84
+    94939 | LARKSPUR         | Larkspur                          |     0.48
+    94941 | MILL VALLEY      | Mill Valley                       |     0.90
+    94941 | MILL VALLEY      | Strawberry                        |     1.40
+    94941 | MILL VALLEY      | Tamalpais-Homestead Valley        |     0.57
+    94947 | NOVATO           | Novato                            |     1.47
+    94954 | PETALUMA         | Petaluma                          |     0.83
+    94960 | SAN ANSELMO      | San Anselmo                       |     0.18
+    94965 | SAUSALITO        | Sausalito                         |     0.23
+    94973 | WOODACRE         | Woodacre                          |     0.21
+    95003 | APTOS            | Aptos                             |     0.99
+    95003 | APTOS            | Day Valley                        |     4.20
+    95003 | APTOS            | Rio del Mar                       |     1.46
+    95004 | AROMAS           | Aromas                            |     0.08
+    95005 | BEN LOMOND       | Ben Lomond                        |     1.16
+    95006 | BOULDER CREEK    | Boulder Creek                     |     0.88
+    95008 | CAMPBELL         | Campbell                          |     0.14
+    95010 | CAPITOLA         | Capitola                          |     0.10
+    95012 | CASTROVILLE      | Castroville                       |     0.55
+    95012 | CASTROVILLE      | Elkhorn                           |     3.11
+    95014 | MONTE VISTA      | Cupertino                         |     0.51
+    95018 | FELTON           | Felton                            |     1.48
+    95019 | FREEDOM          | Aptos Hills-Larkin Valley         |     3.32
+    95019 | FREEDOM          | Corralitos                        |     4.22
+    95019 | FREEDOM          | Freedom                           |     0.72
+    95019 | FREEDOM          | Interlaken                        |     2.57
+    95020 | GILROY           | Gilroy                            |     0.40
+    95023 | HOLLISTER        | Hollister                         |     0.80
+    95030 | MONTE SERENO     | Lexington Hills                   |     3.18
+    95030 | MONTE SERENO     | Monte Sereno                      |     1.87
+    95032 | LOS GATOS        | Los Gatos                         |     0.52
+    95035 | MILPITAS         | Milpitas                          |     0.14
+    95037 | MORGAN HILL      | Morgan Hill                       |     0.37
+    95045 | SAN JUAN BAUTIST | San Juan Bautista                 |     0.35
+    95046 | SAN MARTIN       | San Martin                        |     0.54
+    95050 | SANTA CLARA      | Santa Clara                       |     1.37
+    95060 | SCOTTS VALLEY    | Santa Cruz                        |     0.78
+    95062 | SANTA CRUZ       | Live Oak                          |     0.91
+    95062 | SANTA CRUZ       | Opal Cliffs                       |     1.35
+    95062 | SANTA CRUZ       | Twin Lakes                        |     0.75
+    95066 | SCOTTS VALLEY    | Scotts Valley                     |     0.39
+    95070 | SARATOGA         | Saratoga                          |     0.43
+    95073 | SOQUEL           | Soquel                            |     0.68
+    95076 | LA SELVA BEACH   | Las Lomas                         |     3.90
+    95076 | LA SELVA BEACH   | Pajaro                            |     1.84
+    95076 | LA SELVA BEACH   | Watsonville                       |     0.29
+    95122 | SAN JOSE         | San Jose                          |     1.90
+    95124 | SAN JOSE         | Cambrian Park                     |     0.38
+    95127 | SAN JOSE         | East Foothills                    |     1.01
+    95128 | SAN JOSE         | Burbank                           |     0.18
+    95129 | SAN JOSE         | Rancho Rinconada                  |     0.57
+    95204 | STOCKTON         | Country Club                      |     1.34
+    95204 | STOCKTON         | Stockton                          |     0.55
+    95205 | STOCKTON         | August                            |     1.21
+    95207 | STOCKTON         | Lincoln Village                   |     0.70
+    95212 | STOCKTON         | Morada                            |     0.30
+    95215 | STOCKTON         | Garden Acres                      |     0.76
+    95222 | ANGELS CAMP      | Angels                            |     0.86
+    95223 | BEAR VALLEY      | Arnold                            |     1.58
+    95231 | FRENCH CAMP      | French Camp                       |     0.39
+    95236 | LINDEN           | Linden                            |     1.37
+    95237 | LOCKEFORD        | Lockeford                         |     1.28
+    95242 | LODI             | Lodi                              |     1.13
+    95247 | MURPHYS          | Murphys                           |     1.69
+    95249 | SAN ANDREAS      | San Andreas                       |     0.36
+    95258 | WOODBRIDGE       | Woodbridge                        |     0.72
+    95301 | ATWATER          | Atwater                           |     0.05
+    95307 | CERES            | Ceres                             |     0.83
+    95307 | CERES            | Keyes                             |     2.37
+    95310 | COLUMBIA         | Columbia                          |     0.90
+    95315 | DELHI            | Delhi                             |     0.38
+    95316 | DENAIR           | Denair                            |     0.63
+    95320 | ESCALON          | Escalon                           |     1.06
+    95321 | GROVELAND        | Groveland-Big Oak Flat            |     0.40
+    95322 | GUSTINE          | Gustine                           |     0.89
+    95324 | HILMAR           | Hilmar-Irwin                      |     0.35
+    95326 | HUGHSON          | Hughson                           |     0.45
+    95330 | LATHROP          | Lathrop                           |     0.32
+    95333 | LE GRAND         | Le Grand                          |     1.12
+    95334 | LIVINGSTON       | Livingston                        |     0.85
+    95336 | MANTECA          | Manteca                           |     0.51
+    95338 | MARIPOSA         | Bootjack                          |     2.36
+    95338 | MARIPOSA         | Mariposa                          |     4.09
+    95340 | RED TOP          | Merced                            |     1.25
+    95350 | MODESTO          | Modesto                           |     1.36
+    95360 | NEWMAN           | Newman                            |     0.29
+    95361 | KNIGHTS FERRY    | Oakdale                           |     0.50
+    95363 | PATTERSON        | Patterson                         |     1.31
+    95366 | RIPON            | Ripon                             |     1.24
+    95367 | RIVERBANK        | Riverbank                         |     0.11
+    95368 | SALIDA           | Salida                            |     0.32
+    95370 | SONORA           | East Sonora                       |     1.02
+    95370 | SONORA           | Jamestown                         |     4.76
+    95370 | SONORA           | Phoenix Lake-Cedar Ridge          |     2.73
+    95370 | SONORA           | Sonora                            |     2.43
+    95372 | SOULSBYVILLE     | Mono Vista                        |     1.36
+    95372 | SOULSBYVILLE     | Soulsbyville                      |     0.01
+    95376 | TRACY            | Tracy                             |     0.73
+    95379 | TUOLUMNE         | Tuolumne City                     |     0.59
+    95380 | TURLOCK          | Turlock                           |     0.09
+    95383 | TWAIN HARTE      | Mi-Wuk Village                    |     2.26
+    95383 | TWAIN HARTE      | Twain Harte                       |     0.95
+    95386 | WATERFORD        | Waterford                         |     0.68
+    95388 | WINTON           | Winton                            |     0.49
+    95404 | SANTA ROSA       | Santa Rosa                        |     0.60
+    95407 | SANTA ROSA       | Roseland                          |     0.76
+    95407 | SANTA ROSA       | South Santa Rosa                  |     0.38
+    95422 | CLEARLAKE        | Clearlake                         |     0.25
+    95422 | CLEARLAKE        | Lower Lake                        |     3.38
+    95423 | CLEARLAKE OAKS   | Clearlake Oaks                    |     0.85
+    95425 | CLOVERDALE       | Cloverdale                        |     0.30
+    95428 | COVELO           | Covelo                            |     1.70
+    95436 | FORESTVILLE      | Forestville                       |     0.70
+    95437 | FORT BRAGG       | Fort Bragg                        |     0.82
+    95439 | FULTON           | Larkfield-Wikiup                  |     1.77
+    95442 | GLEN ELLEN       | Eldridge                          |     1.99
+    95442 | GLEN ELLEN       | Glen Ellen                        |     1.02
+    95444 | GRATON           | Graton                            |     0.20
+    95446 | GUERNEVILLE      | Guerneville                       |     0.51
+    95448 | HEALDSBURG       | Healdsburg                        |     0.38
+    95451 | KELSEYVILLE      | Kelseyville                       |     2.38
+    95453 | LAKEPORT         | Lakeport                          |     0.90
+    95454 | LAYTONVILLE      | Laytonville                       |     0.63
+    95457 | LOWER LAKE       | Hidden Valley Lake                |     4.65
+    95458 | LUCERNE          | Lucerne                           |     1.49
+    95462 | RUSSIAN RIVER MD | Monte Rio                         |     0.45
+    95464 | NICE             | Nice                              |     0.47
+    95465 | OCCIDENTAL       | Occidental                        |     2.66
+    95468 | POINT ARENA      | Point Arena                       |     1.59
+    95472 | FREESTONE        | Sebastopol                        |     0.84
+    95476 | SONOMA           | Boyes Hot Springs                 |     1.34
+    95476 | SONOMA           | El Verano                         |     0.89
+    95476 | SONOMA           | Fetters Hot Springs-Agua Caliente |     1.83
+    95476 | SONOMA           | Sonoma                            |     0.80
+    95476 | SONOMA           | Temelec                           |     3.10
+    95482 | UKIAH            | Ukiah                             |     0.61
+    95490 | WILLITS          | Willits                           |     0.45
+    95492 | WINDSOR          | Windsor                           |     0.38
+    95501 | EUREKA           | Bayview                           |     1.27
+    95501 | EUREKA           | Cutten                            |     0.92
+    95501 | EUREKA           | Eureka                            |     1.29
+    95501 | EUREKA           | Humboldt Hill                     |     3.76
+    95501 | EUREKA           | Myrtletown                        |     1.61
+    95501 | EUREKA           | Pine Hills                        |     2.89
+    95521 | MC KINLEYVILLE   | Arcata                            |     2.50
+    95521 | MC KINLEYVILLE   | McKinleyville                     |     3.70
+    95524 | BAYSIDE          | Blue Lake                         |     4.30
+    95531 | CRESCENT CITY    | Crescent City                     |     2.32
+    95531 | CRESCENT CITY    | Crescent City North               |     2.31
+    95536 | FERNDALE         | Ferndale                          |     0.54
+    95540 | FORTUNA          | Fortuna                           |     0.08
+    95547 | HYDESVILLE       | Hydesville                        |     0.15
+    95548 | KLAMATH          | Klamath                           |     2.30
+    95560 | REDWAY           | Redway                            |     1.38
+    95562 | RIO DELL         | Rio Dell                          |     0.39
+    95570 | WESTHAVEN        | Trinidad                          |     2.91
+    95570 | WESTHAVEN        | Westhaven-Moonstone               |     3.10
+    95573 | WILLOW CREEK     | Willow Creek                      |     4.20
+    95603 | AUBURN           | Auburn                            |     2.48
+    95603 | AUBURN           | North Auburn                      |     0.28
+    95608 | CARMICHAEL       | Carmichael                        |     0.64
+    95610 | CITRUS HEIGHTS   | Citrus Heights                    |     0.94
+    95616 | DAVIS            | Davis                             |     0.66
+    95619 | DIAMOND SPRINGS  | Diamond Springs                   |     1.72
+    95620 | LIBERTY FARMS    | Dixon                             |     1.03
+    95624 | ELK GROVE        | Elk Grove                         |     0.90
+    95627 | ESPARTO          | Esparto                           |     0.03
+    95628 | FAIR OAKS        | Fair Oaks                         |     0.87
+    95630 | EL DORADO HILLS  | El Dorado Hills                   |     3.15
+    95630 | EL DORADO HILLS  | Folsom                            |     0.80
+    95631 | FORESTHILL       | Foresthill                        |     1.53
+    95632 | GALT             | Galt                              |     0.40
+    95640 | IONE             | Ione                              |     0.53
+    95641 | ISLETON          | Isleton                           |     0.41
+    95642 | JACKSON          | Jackson                           |     1.09
+    95648 | LINCOLN          | Lincoln                           |     1.15
+    95650 | LOOMIS           | Loomis                            |     1.30
+    95655 | MATHER AFB       | Mather AFB                        |     0.28
+    95660 | NORTH HIGHLANDS  | North Highlands                   |     1.44
+    95662 | ORANGEVALE       | Orangevale                        |     0.49
+    95667 | PLACERVILLE      | Placerville                       |     0.86
+    95669 | PLYMOUTH         | Plymouth                          |     1.49
+    95670 | GOLD RIVER       | Rancho Cordova                    |     0.72
+    95673 | RIO LINDA        | Rio Linda                         |     0.69
+    95677 | ROCKLIN          | Rocklin                           |     0.73
+    95678 | ROSEVILLE        | Roseville                         |     0.77
+    95682 | CAMERON PARK     | Cameron Park                      |     1.24
+    95682 | CAMERON PARK     | Shingle Springs                   |     1.94
+    95683 | RANCHO MURIETA   | Rancho Murieta                    |     1.99
+    95685 | SUTTER CREEK     | Amador City                       |     2.00
+    95685 | SUTTER CREEK     | Sutter Creek                      |     2.10
+    95687 | VACAVILLE        | Vacaville                         |     1.39
+    95691 | WEST SACRAMENTO  | West Sacramento                   |     0.87
+    95692 | WHEATLAND        | Wheatland                         |     0.48
+    95693 | WILTON           | Wilton                            |     1.06
+    95694 | WINTERS          | Winters                           |     0.35
+    95695 | WOODLAND         | Woodland                          |     0.69
+    95713 | IOWA HILL        | Colfax                            |     1.29
+    95722 | MEADOW VISTA     | Lake Of The Pines                 |     2.90
+    95722 | MEADOW VISTA     | Meadow Vista                      |     0.10
+    95726 | PACIFIC HOUSE    | Pollock Pines                     |     0.88
+    95758 | ELK GROVE        | Laguna                            |     1.21
+    95816 | SACRAMENTO       | Sacramento                        |     0.40
+    95824 | SACRAMENTO       | Parkway-South Sacramento          |     0.82
+    95826 | SACRAMENTO       | La Riviera                        |     1.13
+    95826 | SACRAMENTO       | Rosemont                          |     1.07
+    95828 | SACRAMENTO       | Florin                            |     0.49
+    95842 | SACRAMENTO       | Foothill Farms                    |     0.69
+    95864 | SACRAMENTO       | Arden-Arcade                      |     0.90
+    95901 | MARYSVILLE       | Linda                             |     2.11
+    95912 | ARBUCKLE         | Arbuckle                          |     1.75
+    95917 | BIGGS            | Biggs                             |     0.70
+    95918 | BROWNS VALLEY    | Loma Rica                         |     3.64
+    95919 | BROWNSVILLE      | Challenge-Brownsville             |     0.62
+    95928 | CHICO            | Chico                             |     1.70
+    95932 | COLUSA           | Colusa                            |     0.47
+    95938 | DURHAM           | Durham                            |     3.39
+    95945 | GRASS VALLEY     | Grass Valley                      |     1.37
+    95946 | PENN VALLEY      | Penn Valley                       |     1.53
+    95947 | GREENVILLE       | Greenville                        |     0.71
+    95948 | GRIDLEY          | Gridley                           |     0.47
+    95949 | GRASS VALLEY     | Alta Sierra                       |     1.60
+    95953 | LIVE OAK         | Live Oak                          |     0.47
+    95954 | MAGALIA          | Magalia                           |     0.75
+    95959 | NEVADA CITY      | Nevada City                       |     1.02
+    95961 | OLIVEHURST       | Olivehurst                        |     0.37
+    95963 | ORLAND           | Orland                            |     1.52
+    95965 | PULGA            | Oroville                          |     2.21
+    95965 | PULGA            | Thermalito                        |     3.21
+    95966 | OROVILLE         | Oroville East                     |     1.96
+    95966 | OROVILLE         | South Oroville                    |     1.71
+    95968 | PALERMO          | Palermo                           |     0.77
+    95969 | PARADISE         | Paradise                          |     0.24
+    95971 | QUINCY           | Quincy-East Quincy                |     1.17
+    95982 | SUTTER           | Sutter                            |     0.80
+    95987 | WILLIAMS         | Williams                          |     1.39
+    95988 | WILLOWS          | Willows                           |     0.53
+    95991 | YUBA CITY        | Marysville                        |     2.57
+    95991 | YUBA CITY        | South Yuba City                   |     1.18
+    95991 | YUBA CITY        | Yuba City                         |     0.47
+    95993 | YUBA CITY        | Tierra Buena                      |     2.15
+    96002 | REDDING          | Redding                           |     2.26
+    96007 | ANDERSON         | Anderson                          |     1.82
+    96013 | BURNEY           | Burney                            |     1.00
+    96019 | SHASTA LAKE      | Central Valley                    |     0.49
+    96020 | CHESTER          | Chester                           |     0.36
+    96021 | CORNING          | Corning                           |     0.75
+    96022 | COTTONWOOD       | Cottonwood                        |     3.28
+    96025 | DUNSMUIR         | Dunsmuir                          |     1.43
+    96027 | SAWYERS BAR      | Etna                              |     1.24
+    96032 | FORT JONES       | Fort Jones                        |     2.29
+    96035 | GERBER           | Gerber-Las Flores                 |     1.48
+    96041 | HAYFORK          | Hayfork                           |     2.51
+    96052 | LEWISTON         | Lewiston                          |     3.77
+    96055 | LOS MOLINOS      | Los Molinos                       |     1.49
+    96055 | LOS MOLINOS      | Tehama                            |     2.19
+    96057 | MCCLOUD          | McCloud                           |     0.18
+    96064 | MONTAGUE         | Montague                          |     3.31
+    96067 | MOUNT SHASTA     | Mount Shasta                      |     0.58
+    96080 | RED BLUFF        | Red Bluff                         |     0.40
+    96093 | WEAVERVILLE      | Weaverville                       |     2.59
+    96094 | EDGEWOOD         | Weed                              |     1.58
+    96097 | YREKA            | Yreka                             |     0.65
+    96101 | ALTURAS          | Alturas                           |     0.99
+    96118 | LOYALTON         | Loyalton                          |     1.16
+    96122 | PORTOLA          | Portola                           |     0.41
+    96130 | SUSANVILLE       | Susanville                        |     0.89
+    96134 | TULELAKE         | Tulelake                          |     2.52
+    96143 | KINGS BEACH      | Kings Beach                       |     0.61
+    96145 | TAHOE CITY       | Dollar Point                      |     1.98
+    96145 | TAHOE CITY       | Sunnyside-Tahoe City              |     2.44
+    96148 | TAHOE VISTA      | Tahoe Vista                       |     0.23
+    96150 | SOUTH LAKE TAHOE | South Lake Tahoe                  |     1.53
+    96161 | TRUCKEE          | Glenshire-Devonshire              |     4.52
+    96161 | TRUCKEE          | Truckee                           |     1.74
+(855 rows)
+
