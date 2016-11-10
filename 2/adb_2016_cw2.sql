@@ -49,7 +49,7 @@ SELECT 		state.name AS state_name,
 		total_population.population,
 		SUM(mcd.population) AS population,
 		ROUND((100.0*SUM(mcd.population))/total_population.population,2) AS pc_population,
-		SUM(mcd.land_area) AS land_area,
+-		SUM(mcd.land_area) AS land_area,
 		ROUND((100.0*SUM(mcd.land_area))/total_land_area.land_area,2) AS pc_land_area
 FROM		state LEFT JOIN mcd ON state.code = mcd.state_code,
 		(SELECT SUM(population) AS population FROM mcd) total_population,
@@ -58,6 +58,7 @@ GROUP BY state_name, total_population.population, total_land_area.land_area
 ORDER BY state_name;
 */
 -- Q5 returns (state_name,county_name,population)
+/*
 SELECT ranked_counties.state_name, ranked_counties.county_name, ranked_counties.population
 FROM (
   SELECT  state.name AS state_name,
@@ -69,4 +70,18 @@ FROM (
 ) AS ranked_counties
 WHERE ranked_counties.rank <= 5
 ORDER BY ranked_counties.state_name ASC, ranked_counties.population DESC;
+*/
 -- Q6 returns (zip_code,zip_name,name,distance)
+SELECT ranked.zip_code AS zip_code, ranked.zip_name AS zip_name, ranked.name AS name, ROUND(CAST(ranked.distance AS NUMERIC),2) AS distance
+FROM (
+	SELECT distances.zip_code AS zip_code, distances.zip_name AS zip_name, distances.name AS name, distances.distance AS distance, RANK() OVER (PARTITION BY distances.name ORDER BY distances.distance ASC) AS rank
+	FROM(	SELECT ALL zip_code, zip_name, name, (2 * 3959 * asin(sqrt((sin(radians((zip.latitude - place.latitude) / 2))) ^ 2 + cos(radians(place.latitude)) * cos(radians(zip.latitude)) * (sin(radians((zip.longitude - place.longitude) / 2))) ^ 2))) as distance
+
+		FROM zip JOIN place ON zip.state_code = place.state_code
+		WHERE zip.state_code = 6) AS distances
+	WHERE distances.distance <=5 ) AS ranked
+WHERE ranked.rank = 1
+ORDER BY zip_code
+/*AND zip_code = 90001
+AND name = 'Florence-Graham'
+*/
