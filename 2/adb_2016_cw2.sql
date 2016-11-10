@@ -1,14 +1,12 @@
 -- Q1 returns (state_name,name)
-
 SELECT state.name AS state_name, place.name AS name
 FROM state JOIN place ON state.code = place.state_code
 WHERE place.name LIKE '%City'
-AND type <> 'city'
+AND (type = 'city') IS NOT TRUE
 ORDER BY state.name, name ASC;
 
 
 -- Q2 returns (state_name,no_big_city,big_city_population)
-
 SELECT 	state.name AS state_name,
 		COUNT(place.name) AS no_big_city,
 		SUM(population) AS big_city_population
@@ -22,7 +20,6 @@ ORDER BY state.name;
 
 
 -- Q3 returns (type,place,mcd,county)
-
 WITH all_types(type,name) AS
 		(SELECT type, 'place' AS name
 		FROM place
@@ -44,7 +41,6 @@ GROUP BY 	all_types.type
 ORDER BY 	all_types.type;
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
-
 SELECT 	state.name AS name,
 		SUM(mcd.population) AS population,
 		ROUND(100.0*SUM(mcd.population)/total_population.population,2) AS pc_population,
@@ -57,7 +53,6 @@ GROUP BY state.name, total_population.population, total_land_area.land_area
 ORDER BY state.name;
 
 -- Q5 returns (state_name,county_name,population)
-
 SELECT ranked_counties.state_name AS state_name, ranked_counties.county_name AS county_name, ranked_counties.population AS population
 FROM (
   SELECT  state.name AS state_name,
@@ -75,7 +70,6 @@ SELECT ranked.zip_code AS zip_code, ranked.zip_name AS zip_name, ranked.name AS 
 FROM (
 	SELECT distances.zip_code AS zip_code, distances.zip_name AS zip_name, distances.name AS name, distances.distance AS distance, RANK() OVER (PARTITION BY distances.name, distances.place_lat,distances.place_long ORDER BY distances.distance ASC) AS rank
 	FROM(	SELECT zip_code, zip_name, name, place.latitude AS place_lat, place.longitude AS place_long, (3959 * acos((sin(radians(zip.latitude))*sin(radians(place.latitude))) + (cos(radians(zip.latitude))*cos(radians(place.latitude))*cos(radians(place.longitude-zip.longitude))))) as distance
-
 		FROM zip JOIN place ON zip.state_code = place.state_code
 		WHERE zip.state_code = 6) AS distances
 	WHERE distances.distance <=5 ) AS ranked
