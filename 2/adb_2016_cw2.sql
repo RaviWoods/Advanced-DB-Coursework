@@ -75,7 +75,7 @@ ORDER BY ranked_counties.state_name ASC, ranked_counties.population DESC;
 SELECT ranked.zip_code AS zip_code, ranked.zip_name AS zip_name, ranked.name AS name, ROUND(CAST(ranked.distance AS NUMERIC),2) AS distance
 FROM (
 	SELECT distances.zip_code AS zip_code, distances.zip_name AS zip_name, distances.name AS name, distances.distance AS distance, RANK() OVER (PARTITION BY distances.name ORDER BY distances.distance ASC) AS rank
-	FROM(	SELECT ALL zip_code, zip_name, name, (3959 * acos(sin(zip.latitude)*sin(place.latitude) +cos(zip.latitude)*cos(place.latitude)*cos(place.longitude-zip.longitude))) as distance
+	FROM(	SELECT ALL zip_code, zip_name, name, (3959 * acos((sin(zip.latitude)*sin(place.latitude)) + (cos(zip.latitude)*cos(place.latitude)*cos(place.longitude-zip.longitude)))) as distance
 
 		FROM zip JOIN place ON zip.state_code = place.state_code
 		WHERE zip.state_code = 6) AS distances
