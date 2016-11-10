@@ -132,6 +132,7 @@
  NEBRASKA       | Republican City
  NEBRASKA       | Rising City
  NEBRASKA       | Steele City
+ NEVADA         | Carson City
  NEVADA         | New Washoe City
  NEW JERSEY     | Neptune City
  NEW JERSEY     | Surf City
@@ -250,7 +251,7 @@
  WISCONSIN      | Marathon City
  WISCONSIN      | Plum City
  WISCONSIN      | Sauk City
-(250 rows)
+(251 rows)
 
    state_name   | no_big_city | big_city_population 
 ----------------+-------------+---------------------
