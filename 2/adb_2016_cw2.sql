@@ -1,13 +1,14 @@
 -- Q1 returns (state_name,name)
-/*
+
 SELECT state.name AS state_name, place.name
 FROM state JOIN place ON state.code = place.state_code
 WHERE place.name LIKE '%City'
 AND type <> 'city'
 ORDER BY state_name, name ASC;
-*/
+
+
 -- Q2 returns (state_name,no_big_city,big_city_population)
-/*
+
 SELECT 	state.name AS state_name,
 		COUNT(place.name) AS no_big_city,
 		SUM(population) AS big_city_population
@@ -16,13 +17,13 @@ WHERE type = 'city'
 AND population > 100000
 GROUP BY state_name
 HAVING SUM(population) >= 1000000 OR COUNT(place.name) >= 5
-ORDER BY state_name
-*/
+ORDER BY state_name;
+
 
 
 -- Q3 returns (type,place,mcd,county)
 
-/*
+
 WITH all_types(type,name) AS
 		(SELECT type, 'place' AS name
 		FROM place
@@ -41,10 +42,10 @@ SELECT	all_types.type,
 		SUM(CASE WHEN all_types.name = 'county' THEN 1 ELSE 0 END) AS county
 FROM 	all_types
 GROUP BY 	all_types.type;
-*/
+
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
-/*
+
 SELECT 		state.name AS state_name,
 		total_population.population,
 		SUM(mcd.population) AS population,
@@ -56,9 +57,9 @@ FROM		state LEFT JOIN mcd ON state.code = mcd.state_code,
 		(SELECT SUM(land_area) AS land_area FROM mcd) total_land_area
 GROUP BY state_name, total_population.population, total_land_area.land_area
 ORDER BY state_name;
-*/
+
 -- Q5 returns (state_name,county_name,population)
-/*
+
 SELECT ranked_counties.state_name, ranked_counties.county_name, ranked_counties.population
 FROM (
   SELECT  state.name AS state_name,
@@ -70,7 +71,7 @@ FROM (
 ) AS ranked_counties
 WHERE ranked_counties.rank <= 5
 ORDER BY ranked_counties.state_name ASC, ranked_counties.population DESC;
-*/
+
 -- Q6 returns (zip_code,zip_name,name,distance)
 SELECT ranked.zip_code AS zip_code, ranked.zip_name AS zip_name, ranked.name AS name, ROUND(CAST(ranked.distance AS NUMERIC),2) AS distance
 FROM (
@@ -81,7 +82,4 @@ FROM (
 		WHERE zip.state_code = 6) AS distances
 	WHERE distances.distance <=5 ) AS ranked
 WHERE ranked.rank = 1
-ORDER BY zip_code
-/*AND zip_code = 90001
-AND name = 'Florence-Graham'
-*/
+ORDER BY zip_code;
