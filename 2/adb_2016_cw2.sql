@@ -40,7 +40,7 @@ SELECT	all_types.type AS type,
 		SUM(CASE WHEN all_types.name = 'mcd' THEN 1 ELSE 0 END) AS mcd,
 		SUM(CASE WHEN all_types.name = 'county' THEN 1 ELSE 0 END) AS county
 FROM 	all_types
-GROUP BY 	all_types.type;
+GROUP BY 	all_types.type
 ORDER BY 	all_types.type;
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
@@ -53,8 +53,8 @@ SELECT 	state.name AS name,
 FROM		state LEFT JOIN mcd ON state.code = mcd.state_code,
 		(SELECT SUM(population) AS population FROM mcd) total_population,
 		(SELECT SUM(land_area) AS land_area FROM mcd) total_land_area
-GROUP BY name, total_population.population, total_land_area.land_area
-ORDER BY name;
+GROUP BY state.name, total_population.population, total_land_area.land_area
+ORDER BY state.name;
 
 -- Q5 returns (state_name,county_name,population)
 
