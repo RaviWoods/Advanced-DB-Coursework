@@ -1,6 +1,6 @@
 -- Q1 returns (state_name,name)
 
-SELECT state.name AS state_name, place.name
+SELECT state.name AS state_name, place.name AS name
 FROM state JOIN place ON state.code = place.state_code
 WHERE place.name LIKE '%City'
 AND type <> 'city'
@@ -23,7 +23,6 @@ ORDER BY state_name;
 
 -- Q3 returns (type,place,mcd,county)
 
-
 WITH all_types(type,name) AS
 		(SELECT type, 'place' AS name
 		FROM place
@@ -36,31 +35,30 @@ WITH all_types(type,name) AS
 		SELECT type, 'county' AS name
 		FROM county
 		WHERE type IS NOT NULL)
-SELECT	all_types.type,
+SELECT	all_types.type AS type,
 		SUM(CASE WHEN all_types.name = 'place' THEN 1 ELSE 0 END) AS place,
 		SUM(CASE WHEN all_types.name = 'mcd' THEN 1 ELSE 0 END) AS mcd,
 		SUM(CASE WHEN all_types.name = 'county' THEN 1 ELSE 0 END) AS county
 FROM 	all_types
 GROUP BY 	all_types.type;
-
+ORDER BY 	all_types.type;
 
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
 
-SELECT 		state.name AS state_name,
-		total_population.population,
+SELECT 	state.name AS name,
 		SUM(mcd.population) AS population,
 		ROUND((100.0*SUM(mcd.population))/total_population.population,2) AS pc_population,
--		SUM(mcd.land_area) AS land_area,
+		SUM(mcd.land_area) AS land_area,
 		ROUND((100.0*SUM(mcd.land_area))/total_land_area.land_area,2) AS pc_land_area
 FROM		state LEFT JOIN mcd ON state.code = mcd.state_code,
 		(SELECT SUM(population) AS population FROM mcd) total_population,
 		(SELECT SUM(land_area) AS land_area FROM mcd) total_land_area
-GROUP BY state_name, total_population.population, total_land_area.land_area
-ORDER BY state_name;
+GROUP BY name, total_population.population, total_land_area.land_area
+ORDER BY name;
 
 -- Q5 returns (state_name,county_name,population)
 
-SELECT ranked_counties.state_name, ranked_counties.county_name, ranked_counties.population
+SELECT ranked_counties.state_name AS state_name, ranked_counties.county_name AS county_name, ranked_counties.population AS population
 FROM (
   SELECT  state.name AS state_name,
           county.name AS county_name,
