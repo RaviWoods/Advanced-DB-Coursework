@@ -46,9 +46,9 @@ ORDER BY 	all_types.type;
 -- Q4 returns (name,population,pc_population,land_area,pc_land_area)
 
 SELECT 	state.name AS name,
-		CAST(SUM(mcd.population) AS BIGINT) AS population,
+		SUM(mcd.population) AS population,
 		ROUND(100.0*SUM(mcd.population)/total_population.population,2) AS pc_population,
-		CAST(SUM(mcd.land_area) AS BIGINT) AS land_area,
+		SUM(mcd.land_area) AS land_area,
 		ROUND(100.0*SUM(mcd.land_area)/total_land_area.land_area,2) AS pc_land_area
 FROM		state LEFT JOIN mcd ON state.code = mcd.state_code,
 		(SELECT SUM(population) AS population FROM mcd) total_population,
