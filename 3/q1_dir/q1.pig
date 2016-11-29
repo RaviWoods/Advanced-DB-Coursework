@@ -1,5 +1,5 @@
 
- RUN /vol/automed/data/uscensus1990/load_tables.pig
+RUN /vol/automed/data/uscensus1990/load_tables.pig
 
 state_and_county =
 	JOIN state BY code LEFT,
@@ -11,6 +11,6 @@ state_without_county =
 
 state_name_without_county = 
 	FOREACH state_without_county
-	GENERATE name
+	GENERATE state::name;
 
-STORE state_name_without_county INTO 'q0' USING PigStorage ( ',' );
+STORE state_name_without_county INTO 'q1' USING PigStorage ( ',' );
