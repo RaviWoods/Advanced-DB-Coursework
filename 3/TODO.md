@@ -23,7 +23,9 @@
 - [X] Change test.sh
 - [X] Change .pig filename
 - [X] Delete test_code and get new test_code
-- [ ] Get counts on 
+- [X] Create new column for town existense (1/0)
+- [ ] Count over this column in GROUP to get correct town counts
+- [ ] Add other counts
 - [ ] Correct results ordered
 - [ ] Diffs correctly
 - [ ] Uploaded

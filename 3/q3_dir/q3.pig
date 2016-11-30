@@ -10,20 +10,21 @@ state_with_place =
 
 swp_with_town_existence =
 	FOREACH state_with_place
-	GENERATE state::code, place::type, (state::code==1?1:0) AS t_ex;
-/*
+	GENERATE *, (place::type=='town'?1:0) AS town_ex;
+
+stuff = FILTER swp_with_town_existence BY state::abbr=='MP';
+
 state_places =
-	GROUP state_with_place
+	GROUP swp_with_town_existence
 	BY state::name;
 
 state_town =
 	FOREACH state_places
-	GENERATE 	group AS name,
-						(state_with_place.type=="town"?1:0 AS count);
+	GENERATE 	group AS state_name,
+						SUM(swp_with_town_existence.town_ex) AS no_town;
 
 
 
-*/
 -- Return (state_name,no_city,no_town,no_village), ordered by state_name
 ordered_results =
 	ORDER state_populations BY name ASC;

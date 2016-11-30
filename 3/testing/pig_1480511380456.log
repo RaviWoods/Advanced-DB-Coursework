@@ -1,9 +1,9 @@
 Pig Stack Trace
 ---------------
-ERROR 1200: <line 36, column 60>  Unexpected character '"'
+ERROR 1200: <line 36, column 36>  Syntax error, unexpected symbol at or near 'place::type'
 
-Failed to parse: <line 36, column 60>  Unexpected character '"'
-	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:243)
+Failed to parse: <line 36, column 36>  Syntax error, unexpected symbol at or near 'place::type'
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:241)
 	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:179)
 	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1660)
 	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
