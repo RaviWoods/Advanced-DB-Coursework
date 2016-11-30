@@ -1,11 +1,15 @@
 Pig Stack Trace
 ---------------
-ERROR 1000: Error during parsing. Lexical error at line 19, column 0.  Encountered: <EOF> after : ""
+ERROR 1200: <line 36, column 60>  Unexpected character '"'
 
-org.apache.pig.tools.pigscript.parser.TokenMgrError: Lexical error at line 19, column 0.  Encountered: <EOF> after : ""
-	at org.apache.pig.tools.pigscript.parser.PigScriptParserTokenManager.getNextToken(PigScriptParserTokenManager.java:3326)
-	at org.apache.pig.tools.pigscript.parser.PigScriptParser.jj_ntk(PigScriptParser.java:1379)
-	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:106)
+Failed to parse: <line 36, column 60>  Unexpected character '"'
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:243)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:179)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1660)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
 	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
 	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
 	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)

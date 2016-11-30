@@ -11,16 +11,19 @@
 - [X] Correct results unordered
 - [X] Correct results ordered
 - [X] Diffs correctly
-- [ ] Copied to success dir
-- [ ] Uploaded
+- [X] Copied to success dir
+- [X] Uploaded
+- [X] Git Commit
 
 ---
 
 ## Q3
-- [ ] Copy Directory
-- [ ] Change test.sh
-- [ ] Delete test_code and get new test_code
-- [ ] Correct results unordered
+- [X] Change commit.sh
+- [X] Copy Directory
+- [X] Change test.sh
+- [X] Change .pig filename
+- [X] Delete test_code and get new test_code
+- [ ] Get counts on 
 - [ ] Correct results ordered
 - [ ] Diffs correctly
 - [ ] Uploaded
