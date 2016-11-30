@@ -30,4 +30,19 @@
 - [X] Diffs correctly
 - [X] Copied to success dir
 - [X] Uploaded
-- [X] Git Commit
+- [ ] Git Commit
+
+---
+
+## Q4
+- [X] Change commit.sh
+- [X] Copy Directory
+- [X] Change test.sh
+- [X] Change .pig filename
+- [X] Delete test_code and get new test_code
+- [ ] Correct results unordered
+- [ ] Correct results ordered
+- [ ] Diffs correctly
+- [ ] Copied to success dir
+- [ ] Uploaded
+- [ ] Git Commit
