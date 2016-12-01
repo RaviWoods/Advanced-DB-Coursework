@@ -15,8 +15,8 @@ state_counties =
 state_populations =
 	FOREACH state_counties
 	GENERATE group AS state_name,
-					SUM(state_with_county.population) AS population,
-					SUM(state_with_county.land_area) AS land_area;
+		 SUM(state_with_county.population) AS population,
+		 SUM(state_with_county.land_area) AS land_area;
 
 ordered_results =
 	ORDER state_populations BY state_name ASC;
