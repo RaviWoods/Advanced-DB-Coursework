@@ -40,8 +40,11 @@
 - [X] Change test.sh
 - [X] Change .pig filename
 - [X] Delete test_code and get new test_code
-- [ ] Correct results unordered
-- [ ] Correct results ordered
+- [X] Get city rows
+- [X] Group and order cities
+- [X] Select top 5
+- [X] Correct results unordered
+- [X] Correct results ordered
 - [ ] Diffs correctly
 - [ ] Copied to success dir
 - [ ] Uploaded
