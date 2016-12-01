@@ -4,29 +4,26 @@ state_and_place =
 	JOIN place BY state_code,
 	state BY code;
 
-state_with_place =
+sp_just_cities =
 	FILTER state_and_place
-	BY place::state_code IS NOT NULL;
+	BY place::type=='city';
 
-swp_with_existences =
-	FOREACH state_with_place
-	GENERATE *,
-	(place::type=='city'?1:0) AS city_ex,
-	(place::type=='town'?1:0) AS town_ex,
-	(place::type=='village'?1:0) AS village_ex;
-
-state_places =
-	GROUP swp_with_existences
+state_cities = 
+	GROUP sp_just_cities
 	BY state::name;
 
-states_and_counts =
-	FOREACH state_places
-	GENERATE 	group AS state_name,
-						SUM(swp_with_existences.city_ex) AS no_city,
-						SUM(swp_with_existences.town_ex) AS no_town,
-						SUM(swp_with_existences.village_ex) AS no_village;
+state_cities_top5 = 
+	FOREACH state_cities {
+		ordered_cities = ORDER sp_just_cities BY place::population DESC;
+		top5_cities = LIMIT ordered_cities 5;
+		GENERATE FLATTEN(top5_cities);
+	};
+
+unordered_results = 
+	FOREACH state_cities_top5
+	GENERATE state::name AS state_name, place::name AS city, place::population;
 
 ordered_results =
-	ORDER states_and_counts BY state_name ASC;
+	ORDER unordered_results BY state_name ASC, population DESC;
 
-STORE ordered_results INTO 'q3' USING PigStorage ( ',' );
+STORE ordered_results INTO 'q4' USING PigStorage ( ',' );
