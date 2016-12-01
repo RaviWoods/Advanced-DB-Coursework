@@ -6,7 +6,7 @@ state_and_place =
 
 sp_just_cities =
 	FILTER state_and_place
-	BY type=='city';
+	BY place::type=='city';
 
 state_cities = 
 	GROUP sp_just_cities
@@ -21,7 +21,7 @@ state_cities_top5 =
 
 unordered_results = 
 	FOREACH state_cities_top5
-	GENERATE state::name AS state_name, place::name AS city, population;
+	GENERATE state::name AS state_name, place::name AS city, place::population;
 
 ordered_results =
 	ORDER unordered_results BY state_name ASC, population DESC;

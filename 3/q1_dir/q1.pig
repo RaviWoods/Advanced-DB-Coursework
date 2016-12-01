@@ -1,4 +1,3 @@
-
 RUN /vol/automed/data/uscensus1990/load_tables.pig
 
 state_and_county =
@@ -11,9 +10,9 @@ state_without_county =
 
 state_name_without_county =
 	FOREACH state_without_county
-	GENERATE state::name;
+	GENERATE state::name AS state_name;
 
 ordered_results =
-	ORDER state_name_without_county BY state::name ASC;
+	ORDER state_name_without_county BY state_name ASC;
 
 STORE state_name_without_county INTO 'q1' USING PigStorage ( ',' );

@@ -10,10 +10,10 @@ state_with_place =
 
 swp_with_existences =
 	FOREACH state_with_place
-	GENERATE *,
-	(place::type=='city'?1:0) AS city_ex,
-	(place::type=='town'?1:0) AS town_ex,
-	(place::type=='village'?1:0) AS village_ex;
+	GENERATE 	*,
+				(type=='city'?1:0) AS city_ex,
+				(type=='town'?1:0) AS town_ex,
+				(type=='village'?1:0) AS village_ex;
 
 state_places =
 	GROUP swp_with_existences
@@ -21,10 +21,10 @@ state_places =
 
 states_and_counts =
 	FOREACH state_places
-	GENERATE 	group AS state_name,
-						SUM(swp_with_existences.city_ex) AS no_city,
-						SUM(swp_with_existences.town_ex) AS no_town,
-						SUM(swp_with_existences.village_ex) AS no_village;
+	GENERATE group AS state_name,
+			 SUM(swp_with_existences.city_ex) AS no_city,
+			 SUM(swp_with_existences.town_ex) AS no_town,
+			 SUM(swp_with_existences.village_ex) AS no_village;
 
 ordered_results =
 	ORDER states_and_counts BY state_name ASC;
